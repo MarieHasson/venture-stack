@@ -1,1 +1,2981 @@
-{}
+{
+  "Add Passkey Modal / Biometrics": {
+    "defaultMessage": "Biometrics"
+  },
+  "Add Passkey Modal / Cancel Button": {
+    "defaultMessage": "Cancel"
+  },
+  "Add Passkey Modal / Cancel Error": {
+    "defaultMessage": "Cancel"
+  },
+  "Add Passkey Modal / Cancel Registration": {
+    "defaultMessage": "Cancel"
+  },
+  "Add Passkey Modal / Continue Button": {
+    "defaultMessage": "Continue"
+  },
+  "Add Passkey Modal / Done Button": {
+    "defaultMessage": "Done"
+  },
+  "Add Passkey Modal / Error Already Registered": {
+    "defaultMessage": "This authenticator is already registered."
+  },
+  "Add Passkey Modal / Error Cancelled": {
+    "defaultMessage": "Registration was cancelled or timed out. Please try again."
+  },
+  "Add Passkey Modal / Error Generic": {
+    "defaultMessage": "Failed to register passkey. Please try again."
+  },
+  "Add Passkey Modal / Error Not Supported": {
+    "defaultMessage": "This authenticator type is not supported."
+  },
+  "Add Passkey Modal / Error Title": {
+    "defaultMessage": "Registration Failed"
+  },
+  "Add Passkey Modal / Name Help": {
+    "defaultMessage": "This helps you identify your passkeys if you have multiple devices."
+  },
+  "Add Passkey Modal / Name Label": {
+    "defaultMessage": "Give your passkey a name"
+  },
+  "Add Passkey Modal / Name Placeholder": {
+    "defaultMessage": "e.g., MacBook Touch ID, iPhone Face ID"
+  },
+  "Add Passkey Modal / No Password": {
+    "defaultMessage": "No Password"
+  },
+  "Add Passkey Modal / Not Supported": {
+    "defaultMessage": "Your browser does not support passkeys (WebAuthn)."
+  },
+  "Add Passkey Modal / Phishing Proof": {
+    "defaultMessage": "Phishing-Proof"
+  },
+  "Add Passkey Modal / Register Description": {
+    "defaultMessage": "When prompted, use Touch ID, Face ID, or your security key to register."
+  },
+  "Add Passkey Modal / Register Title": {
+    "defaultMessage": "Complete registration on your device"
+  },
+  "Add Passkey Modal / Retry Button": {
+    "defaultMessage": "Try Again"
+  },
+  "Add Passkey Modal / Subtitle": {
+    "defaultMessage": "Secure, passwordless sign-in"
+  },
+  "Add Passkey Modal / Success": {
+    "defaultMessage": "Passkey registered successfully!"
+  },
+  "Add Passkey Modal / Success Description": {
+    "defaultMessage": "You can now use this passkey to sign in securely without a password."
+  },
+  "Add Passkey Modal / Success Title": {
+    "defaultMessage": "Passkey Registered!"
+  },
+  "Add Passkey Modal / Title": {
+    "defaultMessage": "Register a Passkey"
+  },
+  "Add Passkey Modal / Waiting": {
+    "defaultMessage": "Waiting for authenticator..."
+  },
+  "Add Passkey Modal / Works With": {
+    "defaultMessage": "Works with"
+  },
+  "Add Passkey Modal / Works With Description": {
+    "defaultMessage": "Touch ID, Face ID, Windows Hello, Android Fingerprint, and hardware security keys like YubiKey."
+  },
+  "Add SSO Modal / Back Button": {
+    "defaultMessage": "Back"
+  },
+  "Add SSO Modal / Cancel Button": {
+    "defaultMessage": "Cancel"
+  },
+  "Add SSO Modal / Creating Button": {
+    "defaultMessage": "Creating..."
+  },
+  "Add SSO Modal / Done Button": {
+    "defaultMessage": "Done"
+  },
+  "Add SSO Modal / Error Toast": {
+    "defaultMessage": "Failed to create SSO connection."
+  },
+  "Add SSO Modal / Help Description": {
+    "defaultMessage": "SAML 2.0 is recommended for enterprise IdPs like Okta and Azure AD. OIDC is simpler and works well with Google Workspace and modern identity providers."
+  },
+  "Add SSO Modal / Help Title": {
+    "defaultMessage": "Not sure which to choose?"
+  },
+  "Add SSO Modal / Issuer Tip": {
+    "defaultMessage": "Tip: Make sure the Issuer URL includes https:// (e.g., https://your-tenant.us.auth0.com/)"
+  },
+  "Add SSO Modal / OIDC Description": {
+    "defaultMessage": "Modern OAuth 2.0 extension"
+  },
+  "Add SSO Modal / OIDC Step 1 Title": {
+    "defaultMessage": "Connection Details"
+  },
+  "Add SSO Modal / OIDC Step 2 Title": {
+    "defaultMessage": "OAuth 2.0 / OIDC Settings"
+  },
+  "Add SSO Modal / Redirect Label": {
+    "defaultMessage": "Redirect URI (update in your IdP):"
+  },
+  "Add SSO Modal / Redirect URI Label OIDC": {
+    "defaultMessage": "After creating the connection, you'll receive the exact redirect URI to configure in your IdP."
+  },
+  "Add SSO Modal / Redirect URI Title": {
+    "defaultMessage": "Redirect URI"
+  },
+  "Add SSO Modal / Redirect Warning": {
+    "defaultMessage": "Important: Update the callback URL in your identity provider settings with this exact URL, then activate the connection."
+  },
+  "Add SSO Modal / SAML Description": {
+    "defaultMessage": "Enterprise standard protocol"
+  },
+  "Add SSO Modal / SP Metadata Description": {
+    "defaultMessage": "After creating the connection, you'll receive the SP metadata URL to configure in your IdP."
+  },
+  "Add SSO Modal / SP Metadata Title": {
+    "defaultMessage": "Service Provider Metadata"
+  },
+  "Add SSO Modal / SP URL Label": {
+    "defaultMessage": "SP Metadata URL:"
+  },
+  "Add SSO Modal / Step 1 Title": {
+    "defaultMessage": "Connection Details"
+  },
+  "Add SSO Modal / Step 2 Title": {
+    "defaultMessage": "Identity Provider Settings"
+  },
+  "Add SSO Modal / Submit Button": {
+    "defaultMessage": "Create Connection"
+  },
+  "Add SSO Modal / Subtitle": {
+    "defaultMessage": "Choose your SSO protocol to get started"
+  },
+  "Add SSO Modal / Subtitle Config": {
+    "defaultMessage": "Enter your identity provider details"
+  },
+  "Add SSO Modal / Subtitle Success": {
+    "defaultMessage": "Complete the setup in your identity provider"
+  },
+  "Add SSO Modal / Success Description": {
+    "defaultMessage": "Complete the setup by configuring your identity provider with the information below."
+  },
+  "Add SSO Modal / Success Title": {
+    "defaultMessage": "SSO Connection Created!"
+  },
+  "Add SSO Modal / Success Toast": {
+    "defaultMessage": "SSO connection created successfully!"
+  },
+  "Add SSO Modal / Title": {
+    "defaultMessage": "Add SSO Connection"
+  },
+  "Add SSO Modal / Title Config": {
+    "defaultMessage": "Configure {type} Connection"
+  },
+  "Add SSO Modal / Title Success": {
+    "defaultMessage": "Connection Created"
+  },
+  "AddCrudDemoItem / Back": {
+    "defaultMessage": "Back to items"
+  },
+  "AddCrudDemoItem / Description": {
+    "defaultMessage": "Create a new CRUD example item"
+  },
+  "AddCrudDemoItem / Form description": {
+    "defaultMessage": "Fill in the details to create a new item"
+  },
+  "AddCrudDemoItem / Form title": {
+    "defaultMessage": "Item Details"
+  },
+  "AddCrudDemoItem / Header": {
+    "defaultMessage": "Add CRUD Example Item"
+  },
+  "AddCrudDemoItem / page title": {
+    "defaultMessage": "Add CRUD Example Item"
+  },
+  "Admin / Access Verified": {
+    "defaultMessage": "Access Verified"
+  },
+  "Admin / Admin Privileges": {
+    "defaultMessage": "You have admin privileges"
+  },
+  "Admin / Badge": {
+    "defaultMessage": "Admin Only"
+  },
+  "Admin / Conditional Description": {
+    "defaultMessage": "Show or hide UI elements based on user permissions"
+  },
+  "Admin / Conditional Title": {
+    "defaultMessage": "Conditional Rendering"
+  },
+  "Admin / Extending App Roles Description": {
+    "defaultMessage": "To add a new application-level role (like MODERATOR), update these files:"
+  },
+  "Admin / Extending App Roles Title": {
+    "defaultMessage": "Application-Level Roles"
+  },
+  "Admin / Extending Description": {
+    "defaultMessage": "How to add custom roles to the system"
+  },
+  "Admin / Extending Tenant Roles Description": {
+    "defaultMessage": "To add a new tenant role (like VIEWER), update these files:"
+  },
+  "Admin / Extending Tenant Roles Title": {
+    "defaultMessage": "Tenant-Level Roles"
+  },
+  "Admin / Extending Title": {
+    "defaultMessage": "Extending Roles"
+  },
+  "Admin / Feature 1 Description": {
+    "defaultMessage": "Application-level roles (USER/ADMIN) for global access control across the entire platform."
+  },
+  "Admin / Feature 1 Title": {
+    "defaultMessage": "Two-Tier Role System"
+  },
+  "Admin / Feature 2 Description": {
+    "defaultMessage": "Multi-tenant roles (OWNER/ADMIN/MEMBER) for granular access within each organization."
+  },
+  "Admin / Feature 2 Title": {
+    "defaultMessage": "Tenant-Level Roles"
+  },
+  "Admin / Feature 3 Description": {
+    "defaultMessage": "Declarative route protection with automatic redirects and role-based component rendering."
+  },
+  "Admin / Feature 3 Title": {
+    "defaultMessage": "Protected Routes"
+  },
+  "Admin / Feature Multi Role Description": {
+    "defaultMessage": "Allow multiple roles with array syntax"
+  },
+  "Admin / Feature Multi Role Title": {
+    "defaultMessage": "Multiple Role Support"
+  },
+  "Admin / Feature Redirect Description": {
+    "defaultMessage": "Unauthorized users are redirected to login or 404 page"
+  },
+  "Admin / Feature Redirect Title": {
+    "defaultMessage": "Automatic Redirects"
+  },
+  "Admin / Features Title": {
+    "defaultMessage": "Built-in Security Features"
+  },
+  "Admin / Files App Level": {
+    "defaultMessage": "Application-Level Auth"
+  },
+  "Admin / Files Description": {
+    "defaultMessage": "Important files for understanding and extending the role-based access control system"
+  },
+  "Admin / Files Tenant Level": {
+    "defaultMessage": "Tenant-Level Auth"
+  },
+  "Admin / Files Title": {
+    "defaultMessage": "Key Files & Locations"
+  },
+  "Admin / Hero Description": {
+    "defaultMessage": "This page demonstrates the built-in role-based access control system. Only users with the ADMIN role can access this page. Regular users are automatically redirected."
+  },
+  "Admin / Hero Title": {
+    "defaultMessage": "Role-Based Access Control"
+  },
+  "Admin / How It Works Description": {
+    "defaultMessage": "This admin page is protected by the AuthRoute component configured with Role.ADMIN. The route definition in app.component.tsx looks like this:"
+  },
+  "Admin / How It Works Redirect": {
+    "defaultMessage": "When a non-admin user tries to access /admin, they are automatically redirected to the login page (if not logged in) or the 404 page (if logged in but not an admin)."
+  },
+  "Admin / How It Works Title": {
+    "defaultMessage": "How This Page Works"
+  },
+  "Admin / Link Backend Docs": {
+    "defaultMessage": "Backend Users Docs"
+  },
+  "Admin / Link Tenancy Docs": {
+    "defaultMessage": "Multi-Tenancy Docs"
+  },
+  "Admin / Pro Tip Description": {
+    "defaultMessage": "Always verify permissions on the backend too. Frontend checks are for UX, not security."
+  },
+  "Admin / Pro Tip Title": {
+    "defaultMessage": "Pro Tip"
+  },
+  "Admin / Route Protection Description": {
+    "defaultMessage": "Wrap your routes with AuthRoute to restrict access based on user roles"
+  },
+  "Admin / Route Protection Title": {
+    "defaultMessage": "Protecting Routes"
+  },
+  "Admin / page title": {
+    "defaultMessage": "Admin Panel"
+  },
+  "App / Page title": {
+    "defaultMessage": "Apptension Boilerplate"
+  },
+  "Audit / All events": {
+    "defaultMessage": "All events"
+  },
+  "Audit / All events placeholder": {
+    "defaultMessage": "All events"
+  },
+  "Audit / All statuses": {
+    "defaultMessage": "All statuses"
+  },
+  "Audit / All statuses placeholder": {
+    "defaultMessage": "All statuses"
+  },
+  "Audit / Apply filters": {
+    "defaultMessage": "Apply filters"
+  },
+  "Audit / Clear filters": {
+    "defaultMessage": "Clear filters"
+  },
+  "Audit / Clear filters link": {
+    "defaultMessage": "Clear filters"
+  },
+  "Audit / Connection": {
+    "defaultMessage": "SSO Connection"
+  },
+  "Audit / Description": {
+    "defaultMessage": "Description"
+  },
+  "Audit / Details": {
+    "defaultMessage": "Details"
+  },
+  "Audit / Error": {
+    "defaultMessage": "Error"
+  },
+  "Audit / Failed badge": {
+    "defaultMessage": "Failed"
+  },
+  "Audit / Filter End Date": {
+    "defaultMessage": "To Date"
+  },
+  "Audit / Filter Event Type": {
+    "defaultMessage": "Event Type"
+  },
+  "Audit / Filter Search": {
+    "defaultMessage": "Search"
+  },
+  "Audit / Filter Start Date": {
+    "defaultMessage": "From Date"
+  },
+  "Audit / Filter Status": {
+    "defaultMessage": "Status"
+  },
+  "Audit / Filter User": {
+    "defaultMessage": "User"
+  },
+  "Audit / Filters Tooltip": {
+    "defaultMessage": "Filter audit log events"
+  },
+  "Audit / Filters button": {
+    "defaultMessage": "Filters"
+  },
+  "Audit / First page": {
+    "defaultMessage": "First page"
+  },
+  "Audit / IP Address": {
+    "defaultMessage": "IP Address"
+  },
+  "Audit / Last page": {
+    "defaultMessage": "Last page"
+  },
+  "Audit / Loading indicator": {
+    "defaultMessage": "Loading..."
+  },
+  "Audit / Next page": {
+    "defaultMessage": "Next page"
+  },
+  "Audit / Pagination summary": {
+    "defaultMessage": "Showing {start}-{end} of {total} events"
+  },
+  "Audit / Previous page": {
+    "defaultMessage": "Previous page"
+  },
+  "Audit / Refresh Tooltip": {
+    "defaultMessage": "Refresh"
+  },
+  "Audit / Results count": {
+    "defaultMessage": "{count, plural, =0 {No events found} one {# event found} other {# events found}}"
+  },
+  "Audit / Search placeholder": {
+    "defaultMessage": "Search logs..."
+  },
+  "Audit / Status Failed": {
+    "defaultMessage": "Failed"
+  },
+  "Audit / Status Success": {
+    "defaultMessage": "Success"
+  },
+  "Audit / User email placeholder": {
+    "defaultMessage": "Filter by email..."
+  },
+  "Auth / Add Two-factor / Close button": {
+    "defaultMessage": "Cancel"
+  },
+  "Auth / Add Two-factor / Configuring authenticator": {
+    "defaultMessage": "Set Up Two-Factor Authentication"
+  },
+  "Auth / Add Two-factor / Enter code in app": {
+    "defaultMessage": "Can't scan? Enter this key manually:"
+  },
+  "Auth / Add Two-factor / Install authenticator app": {
+    "defaultMessage": "Download Google Authenticator or Authy on your mobile device from the App Store or Google Play."
+  },
+  "Auth / Add Two-factor / Key copied": {
+    "defaultMessage": "Secret key copied to clipboard"
+  },
+  "Auth / Add Two-factor / Key copy failed": {
+    "defaultMessage": "Failed to copy key"
+  },
+  "Auth / Add Two-factor / Platforms": {
+    "defaultMessage": "iOS & Android"
+  },
+  "Auth / Add Two-factor / Scan QR Code": {
+    "defaultMessage": "Scan QR Code"
+  },
+  "Auth / Add Two-factor / Step 1 title": {
+    "defaultMessage": "Install Authenticator App"
+  },
+  "Auth / Add Two-factor / Subtitle": {
+    "defaultMessage": "Secure your account with an authenticator app"
+  },
+  "Auth / Add Two-factor / Success message": {
+    "defaultMessage": "Two-Factor Auth enabled successfully!"
+  },
+  "Auth / Add Two-factor / Use camera to scan qr code": {
+    "defaultMessage": "Open your authenticator app and scan the QR code below."
+  },
+  "Auth / Add Two-factor / Verify & Activate button": {
+    "defaultMessage": "Activate 2FA"
+  },
+  "Auth / Add Two-factor / Verify Code": {
+    "defaultMessage": "Enter Verification Code"
+  },
+  "Auth / Add Two-factor / Verify code for changing the setting": {
+    "defaultMessage": "Enter the 6-digit code from your authenticator app to complete setup."
+  },
+  "Auth / Avatar Form / Error / Too large": {
+    "defaultMessage": "File cannot be larger than {size}"
+  },
+  "Auth / Avatar Form / Success message": {
+    "defaultMessage": "Avatar successfully changed."
+  },
+  "Auth / Change password / Confirm new password label": {
+    "defaultMessage": "Confirm new password"
+  },
+  "Auth / Change password / Confirm new password placeholder": {
+    "defaultMessage": "Minimum 8 characters"
+  },
+  "Auth / Change password / Confirm password required": {
+    "defaultMessage": "Confirm password is required"
+  },
+  "Auth / Change password / New password label": {
+    "defaultMessage": "New password"
+  },
+  "Auth / Change password / New password placeholder": {
+    "defaultMessage": "Minimum 8 characters"
+  },
+  "Auth / Change password / Old password placeholder": {
+    "defaultMessage": "Old password"
+  },
+  "Auth / Change password / Old password required": {
+    "defaultMessage": "Old password is required"
+  },
+  "Auth / Change password / Password must match": {
+    "defaultMessage": "Passwords must match"
+  },
+  "Auth / Change password / Password required": {
+    "defaultMessage": "New password is required"
+  },
+  "Auth / Change password / Password too short": {
+    "defaultMessage": "Password is too short. It must contain at least 8 characters."
+  },
+  "Auth / Change password / Submit button": {
+    "defaultMessage": "Change password"
+  },
+  "Auth / Change password / Success message": {
+    "defaultMessage": "Password successfully changed."
+  },
+  "Auth / Change password / password entirely numeric": {
+    "defaultMessage": "The password can't be entirely numeric."
+  },
+  "Auth / Change password / password too common": {
+    "defaultMessage": "The password is too common."
+  },
+  "Auth / Change password / wrong old password": {
+    "defaultMessage": "The password is invalid."
+  },
+  "Auth / Confirm reset password / description": {
+    "defaultMessage": "Please enter your new password below. Make sure it's strong and secure."
+  },
+  "Auth / Confirm reset password / heading": {
+    "defaultMessage": "Create new password"
+  },
+  "Auth / Confirm reset password / login link": {
+    "defaultMessage": "Back to sign in"
+  },
+  "Auth / Floating / Dark mode": {
+    "defaultMessage": "Dark mode"
+  },
+  "Auth / Floating / Language label": {
+    "defaultMessage": "Language"
+  },
+  "Auth / Floating / Light mode": {
+    "defaultMessage": "Light mode"
+  },
+  "Auth / Floating controls aria label": {
+    "defaultMessage": "Settings menu"
+  },
+  "Auth / Login / Confirm password label": {
+    "defaultMessage": "Confirm new password"
+  },
+  "Auth / Login / Confirm password placeholder": {
+    "defaultMessage": "Re-enter your new password"
+  },
+  "Auth / Login / Email format error": {
+    "defaultMessage": "Please enter a valid email address"
+  },
+  "Auth / Login / Email label": {
+    "defaultMessage": "Email address"
+  },
+  "Auth / Login / Email placeholder": {
+    "defaultMessage": "name@example.com"
+  },
+  "Auth / Login / Email required": {
+    "defaultMessage": "Please enter your email address"
+  },
+  "Auth / Login / Facebook login button": {
+    "defaultMessage": "Log in with Facebook"
+  },
+  "Auth / Login / Google login button": {
+    "defaultMessage": "Log in with Google"
+  },
+  "Auth / Login / Password label": {
+    "defaultMessage": "Password"
+  },
+  "Auth / Login / Password placeholder": {
+    "defaultMessage": "Enter your password"
+  },
+  "Auth / Login / Password required": {
+    "defaultMessage": "Please enter your password"
+  },
+  "Auth / Login / description": {
+    "defaultMessage": "Sign in to your account to continue"
+  },
+  "Auth / Login / heading": {
+    "defaultMessage": "Welcome back"
+  },
+  "Auth / Login / or": {
+    "defaultMessage": "Or continue with email"
+  },
+  "Auth / Login / signup link": {
+    "defaultMessage": "Sign up"
+  },
+  "Auth / Login / signup prompt": {
+    "defaultMessage": "Don't have an account? {signupLink}"
+  },
+  "Auth / Passkey / button": {
+    "defaultMessage": "Sign in with Passkey"
+  },
+  "Auth / Passkey / loading": {
+    "defaultMessage": "Authenticating..."
+  },
+  "Auth / Profile details / Change password header": {
+    "defaultMessage": "Change password"
+  },
+  "Auth / Profile details / Change password label": {
+    "defaultMessage": "Update your password"
+  },
+  "Auth / Profile details / Header": {
+    "defaultMessage": "User profile"
+  },
+  "Auth / Profile details / Label": {
+    "defaultMessage": "Here you can find more information about your account and edit it"
+  },
+  "Auth / Profile details / Passkeys header": {
+    "defaultMessage": "Passkeys"
+  },
+  "Auth / Profile details / Passkeys label": {
+    "defaultMessage": "Sign in with your fingerprint, face, or device PIN"
+  },
+  "Auth / Profile details / Personal data header": {
+    "defaultMessage": "Personal data"
+  },
+  "Auth / Profile details / Personal data label": {
+    "defaultMessage": "Update your account details"
+  },
+  "Auth / Profile details / Sessions header": {
+    "defaultMessage": "Active Sessions"
+  },
+  "Auth / Profile details / Sessions label": {
+    "defaultMessage": "View and manage your active sign-in sessions across devices"
+  },
+  "Auth / Profile details / Two-factor Authentication header": {
+    "defaultMessage": "Two-factor Authentication"
+  },
+  "Auth / Profile details / Two-factor Authentication label": {
+    "defaultMessage": "Enable 2FA on your account"
+  },
+  "Auth / Request password reset  / Email required": {
+    "defaultMessage": "Please enter your email address"
+  },
+  "Auth / Request password reset / Email format error": {
+    "defaultMessage": "Please enter a valid email address"
+  },
+  "Auth / Request password reset / Email label": {
+    "defaultMessage": "Email address"
+  },
+  "Auth / Request password reset / Email placeholder": {
+    "defaultMessage": "name@example.com"
+  },
+  "Auth / Request password reset / Resend button": {
+    "defaultMessage": "Resend reset link"
+  },
+  "Auth / Request password reset / Submit button": {
+    "defaultMessage": "Send reset link"
+  },
+  "Auth / Request password reset / Submit button loading": {
+    "defaultMessage": "Sending..."
+  },
+  "Auth / Reset password / description": {
+    "defaultMessage": "Enter your email address and we'll send you a link to reset your password."
+  },
+  "Auth / Reset password / login link": {
+    "defaultMessage": "Back to sign in"
+  },
+  "Auth / Reset password / request sent description": {
+    "defaultMessage": "We've sent a password reset link to your email address. Please check your inbox and follow the instructions."
+  },
+  "Auth / Reset password confirm / Old password required": {
+    "defaultMessage": "Please enter a new password"
+  },
+  "Auth / Reset password confirm / Password label": {
+    "defaultMessage": "New password"
+  },
+  "Auth / Reset password confirm / Password must match": {
+    "defaultMessage": "Passwords do not match"
+  },
+  "Auth / Reset password confirm / Password placeholder": {
+    "defaultMessage": "Enter your new password"
+  },
+  "Auth / Reset password confirm / Password required": {
+    "defaultMessage": "Please confirm your new password"
+  },
+  "Auth / Reset password confirm / Password too short": {
+    "defaultMessage": "Password must be at least 8 characters long"
+  },
+  "Auth / Reset password confirm / Submit button": {
+    "defaultMessage": "Update password"
+  },
+  "Auth / Reset password confirm / Submit button loading": {
+    "defaultMessage": "Updating password..."
+  },
+  "Auth / Reset password confirm / Success message": {
+    "defaultMessage": "Password reset successfully!"
+  },
+  "Auth / Reset password confirm / invalid token": {
+    "defaultMessage": "The password reset link you have used is either expired, has already been used, or is incorrect"
+  },
+  "Auth / Reset password confirm / password entirely numeric": {
+    "defaultMessage": "The password can't be entirely numeric."
+  },
+  "Auth / Reset password confirm / password too common": {
+    "defaultMessage": "The password is too common."
+  },
+  "Auth / Signup / Accept checkbox / Privacy policy link": {
+    "defaultMessage": "Privacy Policy"
+  },
+  "Auth / Signup / Accept checkbox / T&C link": {
+    "defaultMessage": "Terms of Use"
+  },
+  "Auth / Signup / Accept terms label": {
+    "defaultMessage": "I agree to the {termsLink} and {policyLink}"
+  },
+  "Auth / Signup / Email format error": {
+    "defaultMessage": "Please enter a valid email address"
+  },
+  "Auth / Signup / Email label": {
+    "defaultMessage": "Email address"
+  },
+  "Auth / Signup / Email placeholder": {
+    "defaultMessage": "name@example.com"
+  },
+  "Auth / Signup / Email required": {
+    "defaultMessage": "Please enter your email address"
+  },
+  "Auth / Signup / Facebook signup button": {
+    "defaultMessage": "Sign up with Facebook"
+  },
+  "Auth / Signup / Google signup button": {
+    "defaultMessage": "Sign up with Google"
+  },
+  "Auth / Signup / Password label": {
+    "defaultMessage": "Password"
+  },
+  "Auth / Signup / Password placeholder": {
+    "defaultMessage": "Create a strong password"
+  },
+  "Auth / Signup / Password required": {
+    "defaultMessage": "Please enter a password"
+  },
+  "Auth / Signup / Password too short": {
+    "defaultMessage": "Password must be at least 8 characters long"
+  },
+  "Auth / Signup / Terms and conditions required": {
+    "defaultMessage": "You must accept the terms and conditions to continue"
+  },
+  "Auth / Signup / description": {
+    "defaultMessage": "Get started with your free account today"
+  },
+  "Auth / Signup / email unique": {
+    "defaultMessage": "The email address is already taken"
+  },
+  "Auth / Signup / heading": {
+    "defaultMessage": "Create your account"
+  },
+  "Auth / Signup / login link": {
+    "defaultMessage": "Sign in"
+  },
+  "Auth / Signup / login prompt": {
+    "defaultMessage": "Already have an account? {loginLink}"
+  },
+  "Auth / Signup / or": {
+    "defaultMessage": "Or continue with email"
+  },
+  "Auth / Signup / password entirely numeric": {
+    "defaultMessage": "The password can't be entirely numeric."
+  },
+  "Auth / Signup / password too common": {
+    "defaultMessage": "The password is too common."
+  },
+  "Auth / Two-factor / Disable button": {
+    "defaultMessage": "Disable 2FA"
+  },
+  "Auth / Two-factor / Disable success": {
+    "defaultMessage": "Two-Factor Auth disabled successfully!"
+  },
+  "Auth / Two-factor / Not using two-factor auth": {
+    "defaultMessage": "Your account is not using two-factor authentication"
+  },
+  "Auth / Two-factor / Setup button": {
+    "defaultMessage": "Setup 2FA"
+  },
+  "Auth / Two-factor / Using two-factor auth": {
+    "defaultMessage": "Your account is using two-factor authentication"
+  },
+  "Auth / Update profile / First name label": {
+    "defaultMessage": "First name"
+  },
+  "Auth / Update profile / Last name label": {
+    "defaultMessage": "Last name"
+  },
+  "Auth / Update profile/ First name max length error": {
+    "defaultMessage": "First name is too long"
+  },
+  "Auth / Update profile/ Last name max length error": {
+    "defaultMessage": "Last name is too long"
+  },
+  "Auth / Update profile/ Submit button": {
+    "defaultMessage": "Update personal data"
+  },
+  "Auth / Update profile/ Success message": {
+    "defaultMessage": "Personal data successfully changed."
+  },
+  "Auth / Validate OTP / Auth code required": {
+    "defaultMessage": "Please enter the authentication code"
+  },
+  "Auth / Validate OTP / Code label": {
+    "defaultMessage": "Authentication Code"
+  },
+  "Auth / Validate OTP / Enter code from app": {
+    "defaultMessage": "Enter the 6-digit code from your authenticator app to complete sign in."
+  },
+  "Auth / Validate OTP / Heading": {
+    "defaultMessage": "Two-Factor Authentication"
+  },
+  "Auth / Validate OTP / Password too short": {
+    "defaultMessage": "The code must be 6 digits"
+  },
+  "Auth / Validate OTP / Submit button": {
+    "defaultMessage": "Verify code"
+  },
+  "Auth / Validate OTP / Submit button loading": {
+    "defaultMessage": "Verifying..."
+  },
+  "Auth / login / reset password link": {
+    "defaultMessage": "Forgot your password?"
+  },
+  "Auth / login button": {
+    "defaultMessage": "Sign in"
+  },
+  "Auth / login button loading": {
+    "defaultMessage": "Signing in..."
+  },
+  "Auth / reset password / heading": {
+    "defaultMessage": "Reset your password"
+  },
+  "Auth / reset password / request sent heading": {
+    "defaultMessage": "Check your email"
+  },
+  "Auth / signup button": {
+    "defaultMessage": "Create account"
+  },
+  "Auth / signup button loading": {
+    "defaultMessage": "Creating account..."
+  },
+  "Avatar / Image alt": {
+    "defaultMessage": "user avatar"
+  },
+  "Back Button / Go back": {
+    "defaultMessage": "Go back"
+  },
+  "Cancel subscription / Active plan": {
+    "defaultMessage": "Active plan:"
+  },
+  "Cancel subscription / Active plan price": {
+    "defaultMessage": "Active plan price:"
+  },
+  "Cancel subscription / Alternative explanation": {
+    "defaultMessage": "Alternatively, you can choose a different subscription plan that better fits your needs."
+  },
+  "Cancel subscription / Back": {
+    "defaultMessage": "Back to subscription"
+  },
+  "Cancel subscription / Button label": {
+    "defaultMessage": "Cancel subscription"
+  },
+  "Cancel subscription / Cancel explanation": {
+    "defaultMessage": "If you cancel your subscription, you will be moved to the free plan at the end of your current billing period. You'll continue to have access to all features until then."
+  },
+  "Cancel subscription / Choose plan button": {
+    "defaultMessage": "Choose a subscription plan"
+  },
+  "Cancel subscription / Confirm Dialog / Cancel Description": {
+    "defaultMessage": "Are you sure you want to cancel your subscription?"
+  },
+  "Cancel subscription / Confirm Dialog / Cancel Title": {
+    "defaultMessage": "Cancel subscription"
+  },
+  "Cancel subscription / Current plan description": {
+    "defaultMessage": "Review your subscription details before canceling"
+  },
+  "Cancel subscription / Current plan header": {
+    "defaultMessage": "Current plan info"
+  },
+  "Cancel subscription / Current plan label": {
+    "defaultMessage": "Details about your current plan"
+  },
+  "Cancel subscription / Header": {
+    "defaultMessage": "Cancel Subscription"
+  },
+  "Cancel subscription / Next renewal": {
+    "defaultMessage": "Next renewal / expiry:"
+  },
+  "Cancel subscription / No active plan": {
+    "defaultMessage": "No active plan"
+  },
+  "Cancel subscription / No active subscription description": {
+    "defaultMessage": "You don't have an active paid subscription to cancel."
+  },
+  "Cancel subscription / No active subscription title": {
+    "defaultMessage": "No Active Subscription"
+  },
+  "Cancel subscription / Success message": {
+    "defaultMessage": "You will be moved to free plan with the next billing period"
+  },
+  "Cancel subscription / page title": {
+    "defaultMessage": "Cancel Subscription"
+  },
+  "Change plan / Back": {
+    "defaultMessage": "Back to subscription"
+  },
+  "Change plan / Fail message": {
+    "defaultMessage": "You need first to add a payment method. Go back and set it there"
+  },
+  "Change plan / Heading": {
+    "defaultMessage": "Plans"
+  },
+  "Change plan / No plans available": {
+    "defaultMessage": "No subscription plans are currently available."
+  },
+  "Change plan / Subheading": {
+    "defaultMessage": "Choose a plan"
+  },
+  "Change plan / Success message": {
+    "defaultMessage": "Plan changed successfully"
+  },
+  "Change plan / page title": {
+    "defaultMessage": "Choose a Plan"
+  },
+  "Change plan item / Active badge": {
+    "defaultMessage": "Active"
+  },
+  "Change plan item / Best value": {
+    "defaultMessage": "Best value"
+  },
+  "Change plan item / Current plan": {
+    "defaultMessage": "Current plan"
+  },
+  "Change plan item / Features header": {
+    "defaultMessage": "Includes:"
+  },
+  "Change plan item / Free badge": {
+    "defaultMessage": "Free"
+  },
+  "Change plan item / Free plan button": {
+    "defaultMessage": "Free plan"
+  },
+  "Change plan item / Free plan description": {
+    "defaultMessage": "Get started with basic features"
+  },
+  "Change plan item / Free price": {
+    "defaultMessage": "Free"
+  },
+  "Change plan item / Loading": {
+    "defaultMessage": "Loading..."
+  },
+  "Change plan item / Monthly plan description": {
+    "defaultMessage": "Flexible monthly subscription"
+  },
+  "Change plan item / Premium plan description": {
+    "defaultMessage": "Best value for committed users"
+  },
+  "Change plan item / Scheduled": {
+    "defaultMessage": "Scheduled"
+  },
+  "Change plan item / Scheduled badge": {
+    "defaultMessage": "Scheduled"
+  },
+  "Change plan item / Select plan": {
+    "defaultMessage": "Select plan"
+  },
+  "Change plan item / Trial eligible notice": {
+    "defaultMessage": "Start with a free trial"
+  },
+  "Change plan item / Yearly savings": {
+    "defaultMessage": "Save 17% vs monthly"
+  },
+  "Change plan item / month": {
+    "defaultMessage": "month"
+  },
+  "Change plan item / year": {
+    "defaultMessage": "year"
+  },
+  "Common / Cancel": {
+    "defaultMessage": "Cancel"
+  },
+  "Common / Never": {
+    "defaultMessage": "Never"
+  },
+  "Confirm Dialog / Cancel label": {
+    "defaultMessage": "Cancel"
+  },
+  "Confirm Dialog / Continue label": {
+    "defaultMessage": "Continue"
+  },
+  "ConfirmEmail.ErrorMessage": {
+    "defaultMessage": "Invalid token."
+  },
+  "ConfirmEmail.LoggedInSuccessMessage": {
+    "defaultMessage": "Congratulations! Your email has been confirmed."
+  },
+  "ConfirmEmail.LoggedOutSuccessMessage": {
+    "defaultMessage": "Congratulations! Now you can log in."
+  },
+  "Contentful Item / Back": {
+    "defaultMessage": "Back to content items"
+  },
+  "Contentful Item / Content title": {
+    "defaultMessage": "Description"
+  },
+  "Contentful Item / Description": {
+    "defaultMessage": "Content managed in Contentful CMS"
+  },
+  "Contentful Item / Docs link": {
+    "defaultMessage": "Documentation"
+  },
+  "Contentful Item / Error Title": {
+    "defaultMessage": "Content Item"
+  },
+  "Contentful Item / Error description": {
+    "defaultMessage": "There was an error loading this item from Contentful."
+  },
+  "Contentful Item / Error title": {
+    "defaultMessage": "Unable to load content item"
+  },
+  "Contentful Item / Image description": {
+    "defaultMessage": "Image asset from Contentful"
+  },
+  "Contentful Item / Image title": {
+    "defaultMessage": "Featured Image"
+  },
+  "Contentful Item / Not configured description": {
+    "defaultMessage": "This content item cannot be loaded because Contentful is not configured. This is an optional feature - configure it in your environment variables when you're ready."
+  },
+  "Contentful Item / Not configured title": {
+    "defaultMessage": "Contentful Not Configured"
+  },
+  "Contentful Item / Page title": {
+    "defaultMessage": "{title} - Content Item"
+  },
+  "Contentful Item / Retry button": {
+    "defaultMessage": "Try again"
+  },
+  "Contentful Item / Return to list": {
+    "defaultMessage": "Return to list"
+  },
+  "Contentful Item / Title": {
+    "defaultMessage": "Content Item"
+  },
+  "Contentful Items / Card description": {
+    "defaultMessage": "Items managed in Contentful CMS. Click the star to mark as favorite."
+  },
+  "Contentful Items / Card title": {
+    "defaultMessage": "Content Items"
+  },
+  "Contentful Items / Check again button": {
+    "defaultMessage": "Check again"
+  },
+  "Contentful Items / Docs link": {
+    "defaultMessage": "Documentation"
+  },
+  "Contentful Items / Empty description": {
+    "defaultMessage": "Your Contentful space is connected but has no 'demoItem' entries yet. Add some items in Contentful to see them here."
+  },
+  "Contentful Items / Empty title": {
+    "defaultMessage": "No content items found"
+  },
+  "Contentful Items / Error description": {
+    "defaultMessage": "There was an error loading items from Contentful."
+  },
+  "Contentful Items / Error title": {
+    "defaultMessage": "Unable to load content items"
+  },
+  "Contentful Items / Not configured description": {
+    "defaultMessage": "This demo showcases integration with Contentful headless CMS. It's an optional feature - you can configure it when you're ready, or skip it if you don't need CMS functionality."
+  },
+  "Contentful Items / Not configured title": {
+    "defaultMessage": "Contentful Integration Not Configured"
+  },
+  "Contentful Items / Open dashboard": {
+    "defaultMessage": "Open Contentful dashboard"
+  },
+  "Contentful Items / Page title": {
+    "defaultMessage": "Content Items"
+  },
+  "Contentful Items / Retry button": {
+    "defaultMessage": "Try again"
+  },
+  "Contentful Items / Setup step 1": {
+    "defaultMessage": "Create a free Contentful account at contentful.com"
+  },
+  "Contentful Items / Setup step 2": {
+    "defaultMessage": "Set up a space and create the 'demoItem' content type"
+  },
+  "Contentful Items / Setup step 3": {
+    "defaultMessage": "Add these environment variables to your .env file:"
+  },
+  "Contentful Items / Setup title": {
+    "defaultMessage": "To enable this feature:"
+  },
+  "Contentful Items / Subheader": {
+    "defaultMessage": "This demo page showcases integration with Contentful headless CMS. Items can be synchronized with your application's database, enabling business logic integration with CMS-managed content."
+  },
+  "Contentful Items / Title": {
+    "defaultMessage": "Content Items"
+  },
+  "Contentful Items / Visit link": {
+    "defaultMessage": "Visit Contentful"
+  },
+  "CrudDemoItem / CrudDemoItemDetails / ErrorMessage": {
+    "defaultMessage": "Failed to load item details"
+  },
+  "CrudDemoItem Form / Name label": {
+    "defaultMessage": "Name:"
+  },
+  "CrudDemoItem form / AddCrudDemoItem / Success message": {
+    "defaultMessage": "Item added successfully!"
+  },
+  "CrudDemoItem form / Cancel button": {
+    "defaultMessage": "Cancel"
+  },
+  "CrudDemoItem form / Delete CrudDemoItem / Success message": {
+    "defaultMessage": "Item deleted successfully!"
+  },
+  "CrudDemoItem form / EditCrudDemoItem / Success message": {
+    "defaultMessage": "Changes saved successfully!"
+  },
+  "CrudDemoItem form / Name max length error": {
+    "defaultMessage": "Name is too long"
+  },
+  "CrudDemoItem form / Name placeholder": {
+    "defaultMessage": "Name"
+  },
+  "CrudDemoItem form / Name required": {
+    "defaultMessage": "Name is required"
+  },
+  "CrudDemoItem form / Submit button": {
+    "defaultMessage": "Save changes"
+  },
+  "CrudDemoItem list / Confirm dialog / Description": {
+    "defaultMessage": "Are you sure you want to continue?"
+  },
+  "CrudDemoItem list / Confirm dialog / Title": {
+    "defaultMessage": "Delete CRUD item"
+  },
+  "CrudDemoItem list / Delete button": {
+    "defaultMessage": "Delete"
+  },
+  "CrudDemoItem list / Edit link": {
+    "defaultMessage": "Edit"
+  },
+  "CrudDemoItemDetails / Back": {
+    "defaultMessage": "Back to items"
+  },
+  "CrudDemoItemDetails / Card description": {
+    "defaultMessage": "Details about this CRUD example item"
+  },
+  "CrudDemoItemDetails / Card title": {
+    "defaultMessage": "Item Information"
+  },
+  "CrudDemoItemDetails / Description": {
+    "defaultMessage": "View item details"
+  },
+  "CrudDemoItemDetails / Name label": {
+    "defaultMessage": "Name:"
+  },
+  "CrudDemoItemDetails / page title": {
+    "defaultMessage": "Item Details"
+  },
+  "CrudDemoItemList / Add first item": {
+    "defaultMessage": "Add your first item"
+  },
+  "CrudDemoItemList / Add new": {
+    "defaultMessage": "Add new item"
+  },
+  "CrudDemoItemList / Empty description": {
+    "defaultMessage": "Get started by creating your first CRUD example item"
+  },
+  "CrudDemoItemList / Empty title": {
+    "defaultMessage": "No items yet"
+  },
+  "CrudDemoItemList / Items description": {
+    "defaultMessage": "Manage your CRUD example items"
+  },
+  "CrudDemoItemList / Items title": {
+    "defaultMessage": "Items"
+  },
+  "CrudDemoItemList / Subheader": {
+    "defaultMessage": "Interactive CRUD example to explore and understand features"
+  },
+  "CrudDemoItemList / Title": {
+    "defaultMessage": "CRUD Example Items"
+  },
+  "CrudDemoItemList / page title": {
+    "defaultMessage": "CRUD Example Items"
+  },
+  "CrudDemoItemList.Open item actions": {
+    "defaultMessage": "Open item actions"
+  },
+  "Dashboard / Active members": {
+    "defaultMessage": "Active members"
+  },
+  "Dashboard / Activity description": {
+    "defaultMessage": "Notifications over the last 7 days"
+  },
+  "Dashboard / Activity title": {
+    "defaultMessage": "Activity Overview"
+  },
+  "Dashboard / All caught up": {
+    "defaultMessage": "All caught up!"
+  },
+  "Dashboard / CRUD Items": {
+    "defaultMessage": "CRUD Items"
+  },
+  "Dashboard / CRUD Items description": {
+    "defaultMessage": "Total items in your organization"
+  },
+  "Dashboard / Data description": {
+    "defaultMessage": "Breakdown of your stored data"
+  },
+  "Dashboard / Data title": {
+    "defaultMessage": "Data Distribution"
+  },
+  "Dashboard / Documents": {
+    "defaultMessage": "Documents"
+  },
+  "Dashboard / Documents description": {
+    "defaultMessage": "Uploaded files"
+  },
+  "Dashboard / Manage CRUD": {
+    "defaultMessage": "Manage CRUD Items"
+  },
+  "Dashboard / No activity": {
+    "defaultMessage": "No activity in the last 7 days"
+  },
+  "Dashboard / No data": {
+    "defaultMessage": "No data yet. Start creating items!"
+  },
+  "Dashboard / No team data": {
+    "defaultMessage": "No team data available"
+  },
+  "Dashboard / Notifications": {
+    "defaultMessage": "Notifications"
+  },
+  "Dashboard / Pending invites": {
+    "defaultMessage": "{count} pending invites"
+  },
+  "Dashboard / Quick Actions": {
+    "defaultMessage": "Quick Actions"
+  },
+  "Dashboard / Quick Actions description": {
+    "defaultMessage": "Common tasks and resources"
+  },
+  "Dashboard / Roles description": {
+    "defaultMessage": "Distribution of team member roles"
+  },
+  "Dashboard / Roles title": {
+    "defaultMessage": "Team Roles"
+  },
+  "Dashboard / Team Members": {
+    "defaultMessage": "Team Members"
+  },
+  "Dashboard / Team Settings": {
+    "defaultMessage": "Team Settings"
+  },
+  "Dashboard / Unread notifications": {
+    "defaultMessage": "{count} unread"
+  },
+  "Demo Item / Favorite error": {
+    "defaultMessage": "Failed to update favorite. Please check your backend configuration and try again."
+  },
+  "Demo Item / Is favorite": {
+    "defaultMessage": "Is favorite"
+  },
+  "Documents / Document / Confirm Dialog / Description": {
+    "defaultMessage": "Are you sure you want to delete this document? This action cannot be undone."
+  },
+  "Documents / Document / Confirm Dialog / Title": {
+    "defaultMessage": "Delete document"
+  },
+  "Documents / Document / Delete button": {
+    "defaultMessage": "Delete document"
+  },
+  "Documents / Empty description": {
+    "defaultMessage": "Upload your first document using the dropzone above"
+  },
+  "Documents / Empty title": {
+    "defaultMessage": "No documents yet"
+  },
+  "Documents / Header": {
+    "defaultMessage": "Documents"
+  },
+  "Documents / List description": {
+    "defaultMessage": "Manage and view your uploaded documents"
+  },
+  "Documents / List title": {
+    "defaultMessage": "Your documents"
+  },
+  "Documents / Maximum size exceeded": {
+    "defaultMessage": "Cannot upload more than 10 documents"
+  },
+  "Documents / Upload description": {
+    "defaultMessage": "Drag and drop files here, or click to browse. Maximum 10 documents allowed."
+  },
+  "Documents / Upload title": {
+    "defaultMessage": "Upload documents"
+  },
+  "Documents / page title": {
+    "defaultMessage": "Documents"
+  },
+  "Documents / subheading": {
+    "defaultMessage": "Upload, manage and organize your documents in one place"
+  },
+  "Dropzone / Default label": {
+    "defaultMessage": "Click or drag file to this area to upload"
+  },
+  "Dropzone / Error messages / File invalid type": {
+    "defaultMessage": "File {fileName} type cannot be accepted"
+  },
+  "Dropzone / Error messages / File too large": {
+    "defaultMessage": "File {fileName} is larger than {maxSize}"
+  },
+  "Dropzone / Error messages / File too small": {
+    "defaultMessage": "File {fileName} is smaller than {minSize}"
+  },
+  "Dropzone / Error messages / Generic": {
+    "defaultMessage": "File {fileName} cannot be accepted"
+  },
+  "Dropzone / Error messages / Too many files": {
+    "defaultMessage": "Cannot accept more than {maxFiles} file"
+  },
+  "EditCrudDemoItem / Back": {
+    "defaultMessage": "Back to items"
+  },
+  "EditCrudDemoItem / Description": {
+    "defaultMessage": "Update the item details"
+  },
+  "EditCrudDemoItem / Form description": {
+    "defaultMessage": "Update the details for this item"
+  },
+  "EditCrudDemoItem / Form title": {
+    "defaultMessage": "Item Details"
+  },
+  "EditCrudDemoItem / Header": {
+    "defaultMessage": "Edit CRUD Example Item"
+  },
+  "EditCrudDemoItem / page title": {
+    "defaultMessage": "Edit CRUD Example Item"
+  },
+  "Email /  User Export / Download": {
+    "defaultMessage": "Download"
+  },
+  "Email / Account Activation / Link label": {
+    "defaultMessage": "Confirm registration"
+  },
+  "Email / Account Activation / Subject": {
+    "defaultMessage": "Confirm registration"
+  },
+  "Email / Account Activation / Text": {
+    "defaultMessage": "Click the button below to confirm registration."
+  },
+  "Email / Account Activation / Title": {
+    "defaultMessage": "Finish the registration"
+  },
+  "Email / Reset Password / Link label": {
+    "defaultMessage": "Reset the password"
+  },
+  "Email / Reset Password / Subject": {
+    "defaultMessage": "Reset your password"
+  },
+  "Email / Reset Password / Text": {
+    "defaultMessage": "Click the button below to reset the password."
+  },
+  "Email / Reset Password / Title": {
+    "defaultMessage": "Reset the password"
+  },
+  "Email / Subscription Error / Link label": {
+    "defaultMessage": "See subscription details"
+  },
+  "Email / Subscription Error / Subject": {
+    "defaultMessage": "Subscription payment failed"
+  },
+  "Email / Subscription Error / Text": {
+    "defaultMessage": "Click the button below to review your payment method details"
+  },
+  "Email / Subscription Error / Title": {
+    "defaultMessage": "Your subscription payment failed"
+  },
+  "Email / TenantInvitation / Subject": {
+    "defaultMessage": "You have a new organization invitation"
+  },
+  "Email / TenantInvitation / Text": {
+    "defaultMessage": "Click button below to accept or decline new invitation."
+  },
+  "Email / TenantInvitation / Title": {
+    "defaultMessage": "You have a new organization invitation"
+  },
+  "Email / TenantInvitation / View invitation": {
+    "defaultMessage": "View invitation"
+  },
+  "Email / Trial Expires Soon / Link label": {
+    "defaultMessage": "Go to the dashboard"
+  },
+  "Email / Trial Expires Soon / Subject": {
+    "defaultMessage": "Your trial is about to expire"
+  },
+  "Email / Trial Expires Soon / Text": {
+    "defaultMessage": "Your trial is about to expire on {expiryDate}, please take action"
+  },
+  "Email / Trial Expires Soon / Title": {
+    "defaultMessage": "Your trial is about to expire"
+  },
+  "Email / User Export / Bottom text": {
+    "defaultMessage": "{br}If you have any questions or concerns about your data, please do not hesitate to contact us. {br}{br} Best regards,"
+  },
+  "Email / User Export / Subject": {
+    "defaultMessage": "Exported user data"
+  },
+  "Email / User Export / Text": {
+    "defaultMessage": "Dear User,{br}{br} We have received your request to export your personal data, in accordance with GDPR regulations. We have processed your request and your data has been compiled into a package that is now available for download. {br}{br} Please note that this package contains sensitive information and should be downloaded to a secure location. {br}{br} To download the package, please click on the download button below. This link will remain active for the next 48 hours. If you do not download the package within this timeframe, you will need to generate a new request."
+  },
+  "Email / User Export / Title": {
+    "defaultMessage": "Exported user data"
+  },
+  "Email / User Export Admin / Download": {
+    "defaultMessage": "Download"
+  },
+  "Email / User Export Admin / Subject": {
+    "defaultMessage": "Exported user data"
+  },
+  "Email / User Export Admin / Text": {
+    "defaultMessage": "Below are results of user export job. Each user received separate email with the download link."
+  },
+  "Email / User Export Admin / Title": {
+    "defaultMessage": "Exported user data"
+  },
+  "File Size / Bytes": {
+    "defaultMessage": "0 bytes"
+  },
+  "File Size / Units / Bytes": {
+    "defaultMessage": "{size} bytes"
+  },
+  "File Size / Units / EB": {
+    "defaultMessage": "{size} EB"
+  },
+  "File Size / Units / GB": {
+    "defaultMessage": "{size} GB"
+  },
+  "File Size / Units / KB": {
+    "defaultMessage": "{size} KB"
+  },
+  "File Size / Units / MB": {
+    "defaultMessage": "{size} MB"
+  },
+  "File Size / Units / PB": {
+    "defaultMessage": "{size} PB"
+  },
+  "File Size / Units / TB": {
+    "defaultMessage": "{size} TB"
+  },
+  "File Size / Units / YB": {
+    "defaultMessage": "{size} YB"
+  },
+  "File Size / Units / ZB": {
+    "defaultMessage": "{size} ZB"
+  },
+  "Finances / Payment methods / Back": {
+    "defaultMessage": "Back to payment methods"
+  },
+  "Finances / Payment methods / Form Description": {
+    "defaultMessage": "Update or add a new payment method for your subscription"
+  },
+  "Finances / Payment methods / Form Title": {
+    "defaultMessage": "Payment Method Details"
+  },
+  "Finances / Payment methods / heading": {
+    "defaultMessage": "Payment methods"
+  },
+  "Finances / Payment methods / page title": {
+    "defaultMessage": "Edit Payment Methods"
+  },
+  "Finances / Payment methods / subheading": {
+    "defaultMessage": "Edit your payment methods"
+  },
+  "Finances / Stripe / Payment confirm / heading": {
+    "defaultMessage": "Payments"
+  },
+  "Finances / Stripe / Payment confirm / page title": {
+    "defaultMessage": "Payments"
+  },
+  "Finances / Stripe / Payment confirm / subheading": {
+    "defaultMessage": "Example of a single payment form powered by Stripe. You can make donations by selecting an amount and providing credit card details"
+  },
+  "Finances / Stripe / Payment form / Description": {
+    "defaultMessage": "Complete your payment securely with Stripe"
+  },
+  "Finances / Stripe / Payment form / Title": {
+    "defaultMessage": "Payment Details"
+  },
+  "Header / Dark mode": {
+    "defaultMessage": "Dark mode"
+  },
+  "Header / Edit profile": {
+    "defaultMessage": "Edit profile"
+  },
+  "Header / Home menu link aria label": {
+    "defaultMessage": "Open menu"
+  },
+  "Header / Language switcher aria label": {
+    "defaultMessage": "Change language"
+  },
+  "Header / Light mode": {
+    "defaultMessage": "Light mode"
+  },
+  "Header / Log out": {
+    "defaultMessage": "Log out"
+  },
+  "Header / Open user menu aria label": {
+    "defaultMessage": "Open user menu"
+  },
+  "Home / Admin Panel / Credentials Title": {
+    "defaultMessage": "Login Credentials"
+  },
+  "Home / Admin Panel / Description": {
+    "defaultMessage": "Access the Django admin interface for managing data and performing administrative tasks"
+  },
+  "Home / Admin Panel / Email Label": {
+    "defaultMessage": "Email"
+  },
+  "Home / Admin Panel / Password Label": {
+    "defaultMessage": "Password"
+  },
+  "Home / Admin Panel / Security Warning": {
+    "defaultMessage": "These credentials are for local development only. Always use strong, unique passwords in production!"
+  },
+  "Home / Admin Panel / Title": {
+    "defaultMessage": "Admin Panel"
+  },
+  "Home / Admin Panel / URL Label": {
+    "defaultMessage": "Access URL"
+  },
+  "Home / Alert / Call to Action": {
+    "defaultMessage": "Remember, the SaaS Boilerplate is your starting point - make it your own!"
+  },
+  "Home / Alert / Description": {
+    "defaultMessage": "Each feature you see here is a module demonstrating the versatility and usability of the SaaS Boilerplate. Please remember, these modules are simply examples. You are encouraged to customize, adjust, and modify each module to best fit your application's needs."
+  },
+  "Home / Alert / Title": {
+    "defaultMessage": "Heads up!"
+  },
+  "Home / CMD items / Subtitle": {
+    "defaultMessage": "Demo of the Contentful integration."
+  },
+  "Home / CMD items / Title": {
+    "defaultMessage": "Content items"
+  },
+  "Home / CRUD / Subtitle": {
+    "defaultMessage": "Create-Read-Update-Delete module example that is generated by built-in generator."
+  },
+  "Home / CRUD / Title": {
+    "defaultMessage": "CRUD"
+  },
+  "Home / CRUD link": {
+    "defaultMessage": "CRUD"
+  },
+  "Home / Development Commands / Database": {
+    "defaultMessage": "Database"
+  },
+  "Home / Development Commands / Generate": {
+    "defaultMessage": "Generate Code"
+  },
+  "Home / Development Commands / Plop Description": {
+    "defaultMessage": "Generate components, CRUD modules, hooks, emails, and more (run from packages/webapp)"
+  },
+  "Home / Development Commands / Testing": {
+    "defaultMessage": "Testing & Quality"
+  },
+  "Home / Development Commands / Title": {
+    "defaultMessage": "Development Commands"
+  },
+  "Home / Documents / Subtitle": {
+    "defaultMessage": "File upload and asset management example."
+  },
+  "Home / Documents / Title": {
+    "defaultMessage": "Documents"
+  },
+  "Home / Features / Title": {
+    "defaultMessage": "Available Features"
+  },
+  "Home / Getting Started / Subtitle": {
+    "defaultMessage": "Follow these steps to start developing with the SaaS Boilerplate."
+  },
+  "Home / Getting Started / Title": {
+    "defaultMessage": "Getting Started"
+  },
+  "Home / Local Services / Title": {
+    "defaultMessage": "Local Services"
+  },
+  "Home / Open AI / Subtitle": {
+    "defaultMessage": "SaaS ideas generator as an example of Open AI integration."
+  },
+  "Home / Open AI / Title": {
+    "defaultMessage": "Open AI integration"
+  },
+  "Home / Payments / Subtitle": {
+    "defaultMessage": "Example of single payment form."
+  },
+  "Home / Payments / Title": {
+    "defaultMessage": "Payments"
+  },
+  "Home / Subscriptions / Subtitle": {
+    "defaultMessage": "Example of subscription management."
+  },
+  "Home / Subscriptions / Title": {
+    "defaultMessage": "Subscriptions"
+  },
+  "Home / admin link": {
+    "defaultMessage": "Admin panel"
+  },
+  "Home / close sidebar icon label": {
+    "defaultMessage": "Close menu"
+  },
+  "Home / content items link": {
+    "defaultMessage": "Content items"
+  },
+  "Home / dashboard link": {
+    "defaultMessage": "Dashboard"
+  },
+  "Home / documents link": {
+    "defaultMessage": "Documents"
+  },
+  "Home / header": {
+    "defaultMessage": "Dashboard"
+  },
+  "Home / openai integration link": {
+    "defaultMessage": "OpenAI Integration"
+  },
+  "Home / organization settings": {
+    "defaultMessage": "Organization"
+  },
+  "Home / page title": {
+    "defaultMessage": "Homepage"
+  },
+  "Home / payments link": {
+    "defaultMessage": "Payments"
+  },
+  "Home / privacy policy link": {
+    "defaultMessage": "Privacy policy"
+  },
+  "Home / subheading": {
+    "defaultMessage": "Welcome! You're viewing your personal application dashboard example."
+  },
+  "Home / subscriptions link": {
+    "defaultMessage": "Subscriptions"
+  },
+  "Home / t&c link": {
+    "defaultMessage": "Terms and conditions"
+  },
+  "Login form / error / authentication failed": {
+    "defaultMessage": "Incorrect authentication credentials."
+  },
+  "Login form / error / no active account": {
+    "defaultMessage": "Incorrect authentication credentials."
+  },
+  "Membership Entry / DeleteMembership / Fail message": {
+    "defaultMessage": "Unable to delete the user."
+  },
+  "Membership Entry / DeleteMembership / Success message": {
+    "defaultMessage": "User was removed successfully!"
+  },
+  "Membership Entry / DeleteTenant / Fail message": {
+    "defaultMessage": "Unable to delete the organization."
+  },
+  "Membership Entry / ResendInvitation / Fail message": {
+    "defaultMessage": "Unable to resend the invitation."
+  },
+  "Membership Entry / ResendInvitation / Success message": {
+    "defaultMessage": "Invitation was resent successfully!"
+  },
+  "Membership Entry / UpdateRole / Fail message": {
+    "defaultMessage": "Unable to change the user role."
+  },
+  "Membership Entry / UpdateRole / Success message": {
+    "defaultMessage": "The user role was updated successfully!"
+  },
+  "Membership Entry / UpdateTenant / Fail message": {
+    "defaultMessage": "Unable to change the organization data."
+  },
+  "My subscription / Active plan": {
+    "defaultMessage": "Current plan:"
+  },
+  "My subscription / Add payment method button": {
+    "defaultMessage": "Add payment methods"
+  },
+  "My subscription / Cancel subscription": {
+    "defaultMessage": "Cancel subscription"
+  },
+  "My subscription / Credit card": {
+    "defaultMessage": "Credit card"
+  },
+  "My subscription / Current method": {
+    "defaultMessage": "Current method:"
+  },
+  "My subscription / Current subscription": {
+    "defaultMessage": "Current subscription"
+  },
+  "My subscription / Current subscription header": {
+    "defaultMessage": "Current subscription"
+  },
+  "My subscription / Current subscription subheader": {
+    "defaultMessage": "Manage your subscription"
+  },
+  "My subscription / Edit payment method button": {
+    "defaultMessage": "Edit payment methods"
+  },
+  "My subscription / Edit subscription": {
+    "defaultMessage": "Edit subscription"
+  },
+  "My subscription / Expiry date": {
+    "defaultMessage": "Expiry date:"
+  },
+  "My subscription / Free plan": {
+    "defaultMessage": "Free plan"
+  },
+  "My subscription / History header": {
+    "defaultMessage": "History"
+  },
+  "My subscription / History subheader": {
+    "defaultMessage": "View transaction history"
+  },
+  "My subscription / Month": {
+    "defaultMessage": "month"
+  },
+  "My subscription / Next plan": {
+    "defaultMessage": "Next billing plan:"
+  },
+  "My subscription / Next renewal": {
+    "defaultMessage": "Next renewal:"
+  },
+  "My subscription / No active plan": {
+    "defaultMessage": "No active plan"
+  },
+  "My subscription / No credit card": {
+    "defaultMessage": "You don't have any payment method added."
+  },
+  "My subscription / No transaction history": {
+    "defaultMessage": "You don't have any history to show"
+  },
+  "My subscription / Payment methods": {
+    "defaultMessage": "Payment methods"
+  },
+  "My subscription / Payment methods header": {
+    "defaultMessage": "Payment methods"
+  },
+  "My subscription / Payment methods subheader": {
+    "defaultMessage": "Manage your payment methods in application"
+  },
+  "My subscription / Transaction history": {
+    "defaultMessage": "Transaction history"
+  },
+  "My subscription / Trial expiry date": {
+    "defaultMessage": "Free trial expiry date:"
+  },
+  "My subscription / View history button": {
+    "defaultMessage": "View transaction history"
+  },
+  "My subscription / Year": {
+    "defaultMessage": "year"
+  },
+  "Not found / description": {
+    "defaultMessage": "This page has been corrupted or doesn't exist. The data you're looking for has been lost in transmission."
+  },
+  "Not found / error code": {
+    "defaultMessage": "ERROR_CODE: 404 | STATUS: PAGE_MISSING"
+  },
+  "Not found / go back button": {
+    "defaultMessage": "Go back"
+  },
+  "Not found / headline": {
+    "defaultMessage": "PAGE NOT FOUND"
+  },
+  "Not found / home button": {
+    "defaultMessage": "Home"
+  },
+  "Not found / page title": {
+    "defaultMessage": "Page Not Found"
+  },
+  "Notifications / CrudItemCreated / Content": {
+    "defaultMessage": "CRUD item \"{name}\" has been created"
+  },
+  "Notifications / CrudItemUpdated / Content": {
+    "defaultMessage": "CRUD item \"{name}\" has been updated"
+  },
+  "Notifications / Notifications Button / Label": {
+    "defaultMessage": "Open notifications"
+  },
+  "Notifications / Notifications List / Empty state": {
+    "defaultMessage": "No notifications"
+  },
+  "Notifications / Notifications List / Mark all as read button": {
+    "defaultMessage": "Mark all as read"
+  },
+  "Notifications / Notifications List / Mark all as read notification": {
+    "defaultMessage": "All notifications marked as read."
+  },
+  "Notifications / Notifications List / Title": {
+    "defaultMessage": "Notifications"
+  },
+  "Notifications / Tenant / Invitation Accepted": {
+    "defaultMessage": "Your invitation to \"{tenant_name}\" has been accepted by \"{name}\""
+  },
+  "Notifications / Tenant / Invitation Created": {
+    "defaultMessage": "You have been invited to \"{tenant_name}\""
+  },
+  "Notifications / Tenant / Invitation Declined": {
+    "defaultMessage": "Your invitation to \"{tenant_name}\" has been declined by \"{name}\""
+  },
+  "OIDC Form / Client ID Label": {
+    "defaultMessage": "Client ID"
+  },
+  "OIDC Form / Client Secret Label": {
+    "defaultMessage": "Client Secret"
+  },
+  "OIDC Form / Issuer Label": {
+    "defaultMessage": "Issuer URL / Discovery URL"
+  },
+  "OIDC Form / Name Label": {
+    "defaultMessage": "Connection Name"
+  },
+  "OIDC Form / Name Placeholder": {
+    "defaultMessage": "e.g., Google Workspace"
+  },
+  "Passkeys / Add another": {
+    "defaultMessage": "Add another passkey"
+  },
+  "Passkeys / Add button": {
+    "defaultMessage": "Add Passkey"
+  },
+  "Passkeys / Add passkey": {
+    "defaultMessage": "Add Passkey"
+  },
+  "Passkeys / Created date": {
+    "defaultMessage": "Created {date}"
+  },
+  "Passkeys / Created label": {
+    "defaultMessage": "Created"
+  },
+  "Passkeys / Cross-platform": {
+    "defaultMessage": "Security key"
+  },
+  "Passkeys / Delete confirm description": {
+    "defaultMessage": "You will no longer be able to sign in with this passkey."
+  },
+  "Passkeys / Delete confirm title": {
+    "defaultMessage": "Remove passkey?"
+  },
+  "Passkeys / Delete error": {
+    "defaultMessage": "Failed to delete passkey."
+  },
+  "Passkeys / Delete failed": {
+    "defaultMessage": "Failed to remove passkey"
+  },
+  "Passkeys / Delete success": {
+    "defaultMessage": "Passkey deleted."
+  },
+  "Passkeys / Description": {
+    "defaultMessage": "Passkeys let you sign in securely using your fingerprint, face, or device PIN - no password required."
+  },
+  "Passkeys / Device Badge": {
+    "defaultMessage": "Device"
+  },
+  "Passkeys / Empty state": {
+    "defaultMessage": "You haven't registered any passkeys yet. Add one for faster, more secure sign-in."
+  },
+  "Passkeys / Last used date": {
+    "defaultMessage": "Last used {date}"
+  },
+  "Passkeys / Last used label": {
+    "defaultMessage": "Last used"
+  },
+  "Passkeys / Name placeholder": {
+    "defaultMessage": "e.g., MacBook Pro, iPhone 15"
+  },
+  "Passkeys / No passkeys description": {
+    "defaultMessage": "Passkeys provide a more secure and convenient way to sign in using your device's biometrics or a security key."
+  },
+  "Passkeys / No passkeys title": {
+    "defaultMessage": "No passkeys registered"
+  },
+  "Passkeys / Not supported": {
+    "defaultMessage": "Passkeys are not supported in this browser or have been disabled."
+  },
+  "Passkeys / Not supported description": {
+    "defaultMessage": "Your browser doesn't support passkeys. Please use a modern browser like Chrome, Firefox, Safari, or Edge."
+  },
+  "Passkeys / Not supported title": {
+    "defaultMessage": "Passkeys not supported"
+  },
+  "Passkeys / Platform": {
+    "defaultMessage": "This device"
+  },
+  "Passkeys / Register": {
+    "defaultMessage": "Register"
+  },
+  "Passkeys / Register description": {
+    "defaultMessage": "Give your passkey a name to identify it, then use your device's biometrics or security key to register."
+  },
+  "Passkeys / Register failed": {
+    "defaultMessage": "Failed to register passkey"
+  },
+  "Passkeys / Register first": {
+    "defaultMessage": "Register Your First Passkey"
+  },
+  "Passkeys / Register success": {
+    "defaultMessage": "Passkey registered successfully"
+  },
+  "Passkeys / Register title": {
+    "defaultMessage": "Register a new passkey"
+  },
+  "Passkeys / Registering": {
+    "defaultMessage": "Registering..."
+  },
+  "Passkeys / Rename failed": {
+    "defaultMessage": "Failed to rename passkey"
+  },
+  "Passkeys / Rename success": {
+    "defaultMessage": "Passkey renamed"
+  },
+  "Passkeys / Title": {
+    "defaultMessage": "Passkeys"
+  },
+  "Passkeys / Type cross-platform": {
+    "defaultMessage": "Security key"
+  },
+  "Passkeys / Type platform": {
+    "defaultMessage": "Built-in"
+  },
+  "Passkeys / Use count label": {
+    "defaultMessage": "Times used"
+  },
+  "Passkeys Card / Add Another Button": {
+    "defaultMessage": "Add another passkey"
+  },
+  "Passkeys Card / Added Date": {
+    "defaultMessage": "Added {date}"
+  },
+  "Passkeys Card / Delete Error": {
+    "defaultMessage": "Failed to delete passkey. Please try again."
+  },
+  "Passkeys Card / Delete Success": {
+    "defaultMessage": "Passkey deleted successfully."
+  },
+  "Passkeys Card / Last Used": {
+    "defaultMessage": "Last used {date}"
+  },
+  "Passkeys Card / Search Placeholder": {
+    "defaultMessage": "Search by user name or email..."
+  },
+  "Privacy Policy / Description": {
+    "defaultMessage": "How we handle and protect your data"
+  },
+  "Privacy Policy / Docs link": {
+    "defaultMessage": "Contentful Documentation"
+  },
+  "Privacy Policy / Empty description": {
+    "defaultMessage": "The privacy policy content hasn't been added yet. Please add content to the 'privacyPolicy' field in your Contentful AppConfig entry."
+  },
+  "Privacy Policy / Empty title": {
+    "defaultMessage": "No Content Available"
+  },
+  "Privacy Policy / Error description": {
+    "defaultMessage": "There was an error loading this content from Contentful."
+  },
+  "Privacy Policy / Error title": {
+    "defaultMessage": "Unable to load privacy policy"
+  },
+  "Privacy Policy / Not configured description": {
+    "defaultMessage": "This page displays content managed via Contentful CMS. To enable it, you need to configure the Contentful integration."
+  },
+  "Privacy Policy / Not configured title": {
+    "defaultMessage": "Contentful Integration Not Configured"
+  },
+  "Privacy Policy / Open Contentful": {
+    "defaultMessage": "Open Contentful"
+  },
+  "Privacy Policy / Page title": {
+    "defaultMessage": "Privacy Policy"
+  },
+  "Privacy Policy / Quick setup title": {
+    "defaultMessage": "Quick Setup"
+  },
+  "Privacy Policy / Retry button": {
+    "defaultMessage": "Try again"
+  },
+  "Privacy Policy / Setup step 1": {
+    "defaultMessage": "Create a Contentful account and space at {link}"
+  },
+  "Privacy Policy / Setup step 2": {
+    "defaultMessage": "Add these environment variables to {file}:"
+  },
+  "Privacy Policy / Setup step 3": {
+    "defaultMessage": "Create an AppConfig content type with a 'privacyPolicy' field (Long text, Markdown)"
+  },
+  "Privacy Policy / Setup step 4": {
+    "defaultMessage": "Restart the development server"
+  },
+  "Privacy Policy / Title": {
+    "defaultMessage": "Privacy Policy"
+  },
+  "Profile / Email / Label": {
+    "defaultMessage": "Email"
+  },
+  "Profile / Name / Label": {
+    "defaultMessage": "Name"
+  },
+  "Profile / Overview / Description": {
+    "defaultMessage": "Your account information"
+  },
+  "Profile / Overview / Title": {
+    "defaultMessage": "Profile Overview"
+  },
+  "Profile / Roles / Label": {
+    "defaultMessage": "Roles"
+  },
+  "Profile / page title": {
+    "defaultMessage": "Profile Settings"
+  },
+  "RelativeDate / Invalid date": {
+    "defaultMessage": "Unknown date"
+  },
+  "SCIM / Add Another": {
+    "defaultMessage": "Generate another token"
+  },
+  "SCIM / Created Date": {
+    "defaultMessage": "Created {date}"
+  },
+  "SCIM / Created Tooltip": {
+    "defaultMessage": "Token creation date"
+  },
+  "SCIM / Endpoint Label": {
+    "defaultMessage": "SCIM Endpoint URL"
+  },
+  "SCIM / Last Used": {
+    "defaultMessage": "Last: {date}"
+  },
+  "SCIM / Last Used Tooltip": {
+    "defaultMessage": "Last time this token was used"
+  },
+  "SCIM / Request Count": {
+    "defaultMessage": "{count, plural, one {# request} other {# requests}}"
+  },
+  "SCIM / Request Count Tooltip": {
+    "defaultMessage": "Total API requests made with this token"
+  },
+  "SCIM / Revoke Button": {
+    "defaultMessage": "Revoke token"
+  },
+  "SCIM / Revoke Dialog Description": {
+    "defaultMessage": "This will permanently disable this token. Your identity provider will no longer be able to sync users using this token. This action cannot be undone."
+  },
+  "SCIM / Revoke Dialog Title": {
+    "defaultMessage": "Revoke SCIM Token?"
+  },
+  "SCIM / SSO Active Badge": {
+    "defaultMessage": "SSO Active"
+  },
+  "SCIM Card / Actions": {
+    "defaultMessage": "Actions"
+  },
+  "SCIM Card / Generate Error": {
+    "defaultMessage": "Failed to generate SCIM token."
+  },
+  "SCIM Card / Revoke Error": {
+    "defaultMessage": "Failed to revoke token."
+  },
+  "SCIM Card / Revoke Success": {
+    "defaultMessage": "SCIM token revoked. It can no longer be used."
+  },
+  "SCIM Modal / Cancel": {
+    "defaultMessage": "Cancel"
+  },
+  "SCIM Modal / Done": {
+    "defaultMessage": "Done"
+  },
+  "SCIM Modal / Generate": {
+    "defaultMessage": "Generate"
+  },
+  "SCIM Modal / Generating": {
+    "defaultMessage": "Generating..."
+  },
+  "SCIM Modal / Name Help": {
+    "defaultMessage": "Give this token a descriptive name to identify its purpose"
+  },
+  "SCIM Modal / Name Label": {
+    "defaultMessage": "Token name"
+  },
+  "SCIM Modal / Name Placeholder": {
+    "defaultMessage": "e.g., Okta SCIM Integration"
+  },
+  "SCIM Modal / Success": {
+    "defaultMessage": "Token generated!"
+  },
+  "SCIM Modal / Success Warning": {
+    "defaultMessage": "Copy this token now. You won't be able to see it again."
+  },
+  "SCIM Modal / Title": {
+    "defaultMessage": "Generate SCIM Token"
+  },
+  "SCIM Modal / Token Label": {
+    "defaultMessage": "Bearer Token"
+  },
+  "SCIM Modal / URL Label": {
+    "defaultMessage": "SCIM Base URL"
+  },
+  "SCIM Modal / Warning": {
+    "defaultMessage": "The token will only be shown once. Make sure to copy it before closing this dialog."
+  },
+  "SSO / Activate": {
+    "defaultMessage": "Activate"
+  },
+  "SSO / Add connection": {
+    "defaultMessage": "Add Connection"
+  },
+  "SSO / All domains": {
+    "defaultMessage": "All domains"
+  },
+  "SSO / Callback / Error title": {
+    "defaultMessage": "Authentication Failed"
+  },
+  "SSO / Callback / Loading": {
+    "defaultMessage": "Completing sign in..."
+  },
+  "SSO / Callback / Return to login": {
+    "defaultMessage": "Return to login"
+  },
+  "SSO / Configure SSO": {
+    "defaultMessage": "Configure SSO"
+  },
+  "SSO / Connection activated": {
+    "defaultMessage": "SSO connection activated"
+  },
+  "SSO / Connection activation failed": {
+    "defaultMessage": "Failed to activate connection"
+  },
+  "SSO / Connection deactivated": {
+    "defaultMessage": "SSO connection deactivated"
+  },
+  "SSO / Connection deactivation failed": {
+    "defaultMessage": "Failed to deactivate connection"
+  },
+  "SSO / Connection deleted": {
+    "defaultMessage": "SSO connection deleted"
+  },
+  "SSO / Connection deletion failed": {
+    "defaultMessage": "Failed to delete connection"
+  },
+  "SSO / Connections description": {
+    "defaultMessage": "Configure single sign-on with your identity provider"
+  },
+  "SSO / Connections title": {
+    "defaultMessage": "SSO Connections"
+  },
+  "SSO / Deactivate": {
+    "defaultMessage": "Deactivate"
+  },
+  "SSO / Delete": {
+    "defaultMessage": "Delete"
+  },
+  "SSO / Delete confirm description": {
+    "defaultMessage": "This will permanently delete this SSO connection. Users will no longer be able to sign in using this identity provider."
+  },
+  "SSO / Delete confirm title": {
+    "defaultMessage": "Delete SSO Connection?"
+  },
+  "SSO / Discovery / Choose organization": {
+    "defaultMessage": "Choose your organization"
+  },
+  "SSO / Discovery / Continue button": {
+    "defaultMessage": "Continue with {provider}"
+  },
+  "SSO / Discovery / SSO available": {
+    "defaultMessage": "SSO available for {domain}"
+  },
+  "SSO / Discovery / SSO required": {
+    "defaultMessage": "Your organization requires SSO for sign in"
+  },
+  "SSO / Domains label": {
+    "defaultMessage": "Allowed Domains"
+  },
+  "SSO / Edit": {
+    "defaultMessage": "Edit"
+  },
+  "SSO / Error / alternative login": {
+    "defaultMessage": "Use another sign in method"
+  },
+  "SSO / Error / description": {
+    "defaultMessage": "If this problem persists, please contact your IT administrator or try an alternative sign in method."
+  },
+  "SSO / Error / heading": {
+    "defaultMessage": "Sign in failed"
+  },
+  "SSO / Error / try again button": {
+    "defaultMessage": "Try again"
+  },
+  "SSO / IdP label": {
+    "defaultMessage": "Identity Provider"
+  },
+  "SSO / Last login label": {
+    "defaultMessage": "Last Login"
+  },
+  "SSO / Logins label": {
+    "defaultMessage": "Total Logins"
+  },
+  "SSO / Never": {
+    "defaultMessage": "Never"
+  },
+  "SSO / No connections description": {
+    "defaultMessage": "Set up enterprise single sign-on to allow your team members to log in with their corporate credentials."
+  },
+  "SSO / No connections title": {
+    "defaultMessage": "No SSO connections"
+  },
+  "SSO / Status active": {
+    "defaultMessage": "Active"
+  },
+  "SSO / Status draft": {
+    "defaultMessage": "Draft"
+  },
+  "SSO / Status error": {
+    "defaultMessage": "Error"
+  },
+  "SSO / Status inactive": {
+    "defaultMessage": "Inactive"
+  },
+  "SSO / View metadata": {
+    "defaultMessage": "View SP Metadata"
+  },
+  "SSO Card / Actions": {
+    "defaultMessage": "Actions"
+  },
+  "SSO Card / Activate": {
+    "defaultMessage": "Activate"
+  },
+  "SSO Card / Activate Success": {
+    "defaultMessage": "SSO connection activated."
+  },
+  "SSO Card / Active Badge": {
+    "defaultMessage": "Active"
+  },
+  "SSO Card / Add Another Button": {
+    "defaultMessage": "Add another connection"
+  },
+  "SSO Card / Created At": {
+    "defaultMessage": "Added {date}"
+  },
+  "SSO Card / Deactivate": {
+    "defaultMessage": "Deactivate"
+  },
+  "SSO Card / Deactivate Success": {
+    "defaultMessage": "SSO connection deactivated."
+  },
+  "SSO Card / Delete": {
+    "defaultMessage": "Delete connection"
+  },
+  "SSO Card / Delete Dialog Description": {
+    "defaultMessage": "Are you sure you want to delete this SSO connection? Users will no longer be able to sign in using this identity provider."
+  },
+  "SSO Card / Delete Dialog Title": {
+    "defaultMessage": "Delete SSO Connection"
+  },
+  "SSO Card / Delete Error": {
+    "defaultMessage": "Failed to delete SSO connection."
+  },
+  "SSO Card / Delete Success": {
+    "defaultMessage": "SSO connection deleted."
+  },
+  "SSO Card / Inactive Badge": {
+    "defaultMessage": "Inactive"
+  },
+  "SSO Card / Last Login": {
+    "defaultMessage": "Last: {date}"
+  },
+  "SSO Card / Last Login Tooltip": {
+    "defaultMessage": "Most recent sign-in"
+  },
+  "SSO Card / Login Count": {
+    "defaultMessage": "{count, plural, =0 {No logins} one {# login} other {# logins}}"
+  },
+  "SSO Card / Login Count Tooltip": {
+    "defaultMessage": "Total sign-ins via this connection"
+  },
+  "SSO Card / Toggle Error": {
+    "defaultMessage": "Failed to update SSO connection."
+  },
+  "SSO Form / Certificate Label": {
+    "defaultMessage": "X.509 Certificate"
+  },
+  "SSO Form / Entity ID Label": {
+    "defaultMessage": "IdP Entity ID / Issuer"
+  },
+  "SSO Form / Name Label": {
+    "defaultMessage": "Connection Name"
+  },
+  "SSO Form / Name Placeholder": {
+    "defaultMessage": "e.g., Okta Production"
+  },
+  "SSO Form / SSO URL Label": {
+    "defaultMessage": "SSO URL (Login URL)"
+  },
+  "SaaS Ideas / page title": {
+    "defaultMessage": "AI Chat - SaaS Ideas Generator"
+  },
+  "SaaS ideas / Capabilities description": {
+    "defaultMessage": "What this AI assistant can do for you"
+  },
+  "SaaS ideas / Capabilities title": {
+    "defaultMessage": "Capabilities"
+  },
+  "SaaS ideas / Capability 1 description": {
+    "defaultMessage": "Generate creative and innovative SaaS product ideas based on your keywords"
+  },
+  "SaaS ideas / Capability 1 title": {
+    "defaultMessage": "Idea Generation"
+  },
+  "SaaS ideas / Capability 2 description": {
+    "defaultMessage": "Powered by OpenAI's advanced language models for intelligent responses"
+  },
+  "SaaS ideas / Capability 2 title": {
+    "defaultMessage": "AI-Powered"
+  },
+  "SaaS ideas / Capability 3 description": {
+    "defaultMessage": "Simply provide keywords separated by commas to get multiple creative SaaS ideas instantly"
+  },
+  "SaaS ideas / Capability 3 title": {
+    "defaultMessage": "Keyword-Based"
+  },
+  "SaaS ideas / Chat description": {
+    "defaultMessage": "Enter keywords separated by commas to generate SaaS ideas"
+  },
+  "SaaS ideas / Chat title": {
+    "defaultMessage": "Chat"
+  },
+  "SaaS ideas / Example prompt 1": {
+    "defaultMessage": "Show me ideas for recruitment & HR SaaS products"
+  },
+  "SaaS ideas / Example prompt 2": {
+    "defaultMessage": "Show me ideas for project management SaaS products"
+  },
+  "SaaS ideas / Example prompt 3": {
+    "defaultMessage": "Show me ideas for sales & inventory SaaS products"
+  },
+  "SaaS ideas / Examples label": {
+    "defaultMessage": "Try these examples:"
+  },
+  "SaaS ideas / Welcome message": {
+    "defaultMessage": "Hello! I'm your AI SaaS ideas generator powered by OpenAI. I can help you generate creative SaaS product ideas based on keywords you provide. Just share keywords related to the type of SaaS product you're interested in (e.g., 'project management, CRM, task tracking'), and I'll suggest innovative SaaS ideas for you!"
+  },
+  "SaaS ideas / description": {
+    "defaultMessage": "SaaS idea generator powered by AI. Input keywords related to your desired SaaS product and get personalized, creative SaaS ideas generated by OpenAI."
+  },
+  "SaaS ideas / title": {
+    "defaultMessage": "SaaS Ideas Generator"
+  },
+  "SaaS ideas Form / Keywords placeholder": {
+    "defaultMessage": "Type your keywords here (e.g., project management, CRM...)"
+  },
+  "SaaS ideas form / Keywords max length error": {
+    "defaultMessage": "Keywords is too long"
+  },
+  "SaaS ideas form / Keywords required": {
+    "defaultMessage": "Keywords is required"
+  },
+  "Sessions / Active now": {
+    "defaultMessage": "Active now"
+  },
+  "Sessions / All Sessions Revoked": {
+    "defaultMessage": "All other sessions have been signed out."
+  },
+  "Sessions / Current": {
+    "defaultMessage": "Current"
+  },
+  "Sessions / Current Session": {
+    "defaultMessage": "Current Session"
+  },
+  "Sessions / Days ago": {
+    "defaultMessage": "{days} days ago"
+  },
+  "Sessions / Description": {
+    "defaultMessage": "Manage your active sign-in sessions across devices"
+  },
+  "Sessions / Hours ago": {
+    "defaultMessage": "{hours} hours ago"
+  },
+  "Sessions / Last active": {
+    "defaultMessage": "Active {time}"
+  },
+  "Sessions / Minutes ago": {
+    "defaultMessage": "{minutes} minutes ago"
+  },
+  "Sessions / No Other Sessions": {
+    "defaultMessage": "No other active sessions. You're only signed in on this device."
+  },
+  "Sessions / No sessions description": {
+    "defaultMessage": "You don't have any active sessions. This can happen if you've signed out everywhere."
+  },
+  "Sessions / No sessions title": {
+    "defaultMessage": "No active sessions"
+  },
+  "Sessions / Revoke all confirm description": {
+    "defaultMessage": "This will sign you out of all devices except the current one. You will need to sign in again on those devices."
+  },
+  "Sessions / Revoke all confirm title": {
+    "defaultMessage": "Sign out of all devices?"
+  },
+  "Sessions / Revoke all failed": {
+    "defaultMessage": "Failed to revoke sessions"
+  },
+  "Sessions / Revoke all success": {
+    "defaultMessage": "{count} sessions revoked"
+  },
+  "Sessions / Revoke confirm description": {
+    "defaultMessage": "This will end the session on this device. You will need to sign in again."
+  },
+  "Sessions / Revoke confirm title": {
+    "defaultMessage": "Sign out of this device?"
+  },
+  "Sessions / Revoke failed": {
+    "defaultMessage": "Failed to revoke session"
+  },
+  "Sessions / Revoke success": {
+    "defaultMessage": "Session revoked"
+  },
+  "Sessions / Session Revoked": {
+    "defaultMessage": "Session has been signed out."
+  },
+  "Sessions / Sign Out All Button": {
+    "defaultMessage": "Sign out all other sessions"
+  },
+  "Sessions / Sign out": {
+    "defaultMessage": "Sign out"
+  },
+  "Sessions / Sign out all": {
+    "defaultMessage": "Sign out all devices"
+  },
+  "Sessions / This Device Badge": {
+    "defaultMessage": "This device"
+  },
+  "Sessions / Title": {
+    "defaultMessage": "Active Sessions"
+  },
+  "Sidebar / Administration section": {
+    "defaultMessage": "Administration"
+  },
+  "Sidebar / Billing section": {
+    "defaultMessage": "Billing"
+  },
+  "Sidebar / Collapse": {
+    "defaultMessage": "Collapse"
+  },
+  "Sidebar / Expand sidebar": {
+    "defaultMessage": "Expand sidebar"
+  },
+  "Sidebar / Features section": {
+    "defaultMessage": "Features"
+  },
+  "Sidebar / Legal section": {
+    "defaultMessage": "Legal"
+  },
+  "Sidebar / Logo link aria label": {
+    "defaultMessage": "Go back home"
+  },
+  "Sidebar / Logo tooltip": {
+    "defaultMessage": "Go to dashboard"
+  },
+  "Sidebar / Overview section": {
+    "defaultMessage": "Overview"
+  },
+  "Sidebar / Switch tenant": {
+    "defaultMessage": "Switch tenant"
+  },
+  "Sidebar / Toggle sidebar": {
+    "defaultMessage": "Toggle sidebar"
+  },
+  "Snackbar / Generic error": {
+    "defaultMessage": "Something went wrong."
+  },
+  "Stripe / Confirm payment / No payment method": {
+    "defaultMessage": "No payment method selected"
+  },
+  "Stripe / Confirm payment / Unknown payment method": {
+    "defaultMessage": "Unknown payment method used"
+  },
+  "Stripe / Confirm payment / Wrong payment method": {
+    "defaultMessage": "Wrong payment method used"
+  },
+  "Stripe / Payment / Card CVC is required": {
+    "defaultMessage": "Card CVC is required"
+  },
+  "Stripe / Payment / Card expiry required": {
+    "defaultMessage": "Card expiry is required"
+  },
+  "Stripe / Payment / Card field required": {
+    "defaultMessage": "This field is required"
+  },
+  "Stripe / Payment / Card name required": {
+    "defaultMessage": "Card name is required"
+  },
+  "Stripe / Payment / Card number required": {
+    "defaultMessage": "Card number is required"
+  },
+  "Stripe / Payment / Product required": {
+    "defaultMessage": "Product is required"
+  },
+  "Stripe / Transaction History / Back": {
+    "defaultMessage": "Back to transaction history"
+  },
+  "Stripe / Transaction History / Card Description": {
+    "defaultMessage": "View all your past transactions and payments"
+  },
+  "Stripe / Transaction History / Card Title": {
+    "defaultMessage": "Transactions"
+  },
+  "Stripe / Transaction History / Donation payment description": {
+    "defaultMessage": "Donation"
+  },
+  "Stripe / Transaction History / Header": {
+    "defaultMessage": "Transaction history"
+  },
+  "Stripe / Transaction History / Subheader": {
+    "defaultMessage": "View transaction history"
+  },
+  "Stripe / Transaction History / Subscription payment description": {
+    "defaultMessage": "{planName} plan"
+  },
+  "Stripe / Transaction History / page title": {
+    "defaultMessage": "Transaction History"
+  },
+  "Stripe / Transaction history / Amount": {
+    "defaultMessage": "Amount"
+  },
+  "Stripe / Transaction history / Date": {
+    "defaultMessage": "Date"
+  },
+  "Stripe / Transaction history / Description": {
+    "defaultMessage": "Description"
+  },
+  "Stripe / Transaction history / Payment method": {
+    "defaultMessage": "Payment method"
+  },
+  "Stripe / payment form / pay CTA": {
+    "defaultMessage": "Pay {amount}"
+  },
+  "Stripe / payment form / product description": {
+    "defaultMessage": "Select amount you would like to donate"
+  },
+  "Stripe / payment form / product label": {
+    "defaultMessage": "Choose the amount"
+  },
+  "Stripe / payment method selector / back to card list": {
+    "defaultMessage": "Back to card list"
+  },
+  "Stripe / payment method selector / enter card details": {
+    "defaultMessage": "Enter card details"
+  },
+  "Stripe / payment method selector / new card option": {
+    "defaultMessage": "Use a new card"
+  },
+  "Stripe / payment method selector / or": {
+    "defaultMessage": "or"
+  },
+  "Stripe / payment method selector / select payment method": {
+    "defaultMessage": "Select payment method"
+  },
+  "Stripe Payment Method / None": {
+    "defaultMessage": "None"
+  },
+  "Stripe edit payment method / successful message": {
+    "defaultMessage": "Payment method changed successfully"
+  },
+  "Stripe form / CVC": {
+    "defaultMessage": "CVC"
+  },
+  "Stripe form / Name label": {
+    "defaultMessage": "Name"
+  },
+  "Stripe form / Name placeholder": {
+    "defaultMessage": "Write here..."
+  },
+  "Stripe form / card number": {
+    "defaultMessage": "Card number"
+  },
+  "Stripe form / expiry date": {
+    "defaultMessage": "Year"
+  },
+  "Stripe payment confirm / payment successful": {
+    "defaultMessage": "Payment successful"
+  },
+  "Subscription / change payment method / submit button": {
+    "defaultMessage": "Save"
+  },
+  "Subscription plan display name / Free": {
+    "defaultMessage": "Free"
+  },
+  "Subscription plan display name / Monthly": {
+    "defaultMessage": "Monthly"
+  },
+  "Subscription plan display name / Yearly": {
+    "defaultMessage": "Yearly"
+  },
+  "Subscription plan example feature / Free": {
+    "defaultMessage": "Lorem ipsum dolor sit amet"
+  },
+  "Table Footer / Rows per page": {
+    "defaultMessage": "Rows per page"
+  },
+  "Tenant Danger Settings / Danger Zone / Confirm Dialog / Tenant Delete Description": {
+    "defaultMessage": "This action cannot be undone. This will permanently delete your organization from our servers."
+  },
+  "Tenant Form / Name label": {
+    "defaultMessage": "Name:"
+  },
+  "Tenant General Settings / Danger Zone / Confirm Dialog / Tenant Delete Button": {
+    "defaultMessage": "Are you absolutely sure?"
+  },
+  "Tenant General Settings / Danger Zone / Delete owner role subtitle": {
+    "defaultMessage": "Only members with the Owner role can delete organization"
+  },
+  "Tenant General Settings / Danger Zone / Delete title": {
+    "defaultMessage": "Delete this organization"
+  },
+  "Tenant General Settings / Danger Zone / Delete warning": {
+    "defaultMessage": "Once you delete an organization, there is no going back. Please be certain."
+  },
+  "Tenant General Settings / Danger Zone / Header": {
+    "defaultMessage": "Danger Zone"
+  },
+  "Tenant General Settings / Danger Zone / Tenant Delete Button": {
+    "defaultMessage": "Delete organization"
+  },
+  "Tenant General Settings / General subheader": {
+    "defaultMessage": "View and manage organization general settings"
+  },
+  "Tenant General Settings / Header": {
+    "defaultMessage": "General"
+  },
+  "Tenant Invitation / Accept / Success message": {
+    "defaultMessage": "Invitation accepted!"
+  },
+  "Tenant Invitation / Accept button": {
+    "defaultMessage": "Accept"
+  },
+  "Tenant Invitation / Decline / Success message": {
+    "defaultMessage": "Invitation declined."
+  },
+  "Tenant Invitation / Decline button": {
+    "defaultMessage": "Decline"
+  },
+  "Tenant Invitation / Invitation message": {
+    "defaultMessage": "You are invited to join the organization: {organizationName}"
+  },
+  "Tenant Invitation / Page headline": {
+    "defaultMessage": "Invitation"
+  },
+  "Tenant Members / Alert": {
+    "defaultMessage": "If you wish to invite people, you need to create an organization."
+  },
+  "Tenant Members / Header": {
+    "defaultMessage": "Members"
+  },
+  "Tenant Members / Invitation form / Success message": {
+    "defaultMessage": "User invited successfully!"
+  },
+  "Tenant Members / Subheader": {
+    "defaultMessage": "View and manage organization members"
+  },
+  "Tenant Membersip Entry / Actions": {
+    "defaultMessage": "Actions"
+  },
+  "Tenant Membersip Entry / Change role": {
+    "defaultMessage": "Change role"
+  },
+  "Tenant Membersip Entry / Confirm Dialog / Delete Description": {
+    "defaultMessage": "Are you sure you want to delete this member?"
+  },
+  "Tenant Membersip Entry / Confirm Dialog / Delete Title": {
+    "defaultMessage": "Delete"
+  },
+  "Tenant Membersip Entry / Delete": {
+    "defaultMessage": "Delete"
+  },
+  "Tenant Membersip Entry / No": {
+    "defaultMessage": "No"
+  },
+  "Tenant Membersip Entry / Resend": {
+    "defaultMessage": "Resend"
+  },
+  "Tenant Membersip Entry / Yes": {
+    "defaultMessage": "Yes"
+  },
+  "Tenant Security Settings / Add Passkey Button": {
+    "defaultMessage": "Add Passkey"
+  },
+  "Tenant Security Settings / Add SCIM Token Button": {
+    "defaultMessage": "Add Token"
+  },
+  "Tenant Security Settings / Add SSO Button": {
+    "defaultMessage": "Add Connection"
+  },
+  "Tenant Security Settings / Add SSO Button Empty": {
+    "defaultMessage": "Configure SSO"
+  },
+  "Tenant Security Settings / Audit Description": {
+    "defaultMessage": "View recent security events for your organization"
+  },
+  "Tenant Security Settings / Audit Header": {
+    "defaultMessage": "Security Audit Log"
+  },
+  "Tenant Security Settings / No Audit Events": {
+    "defaultMessage": "No security events yet"
+  },
+  "Tenant Security Settings / No Audit Events Hint": {
+    "defaultMessage": "Security events like SSO logins, user provisioning, and configuration changes will appear here."
+  },
+  "Tenant Security Settings / No Filtered Audit Events": {
+    "defaultMessage": "No events match your filters"
+  },
+  "Tenant Security Settings / No Filtered Audit Events Hint": {
+    "defaultMessage": "Try adjusting your filters or clearing them to see all events."
+  },
+  "Tenant Security Settings / No Match Hint": {
+    "defaultMessage": "Try a different search term"
+  },
+  "Tenant Security Settings / No Passkeys": {
+    "defaultMessage": "No passkeys registered"
+  },
+  "Tenant Security Settings / No Passkeys Match": {
+    "defaultMessage": "No passkeys match your search"
+  },
+  "Tenant Security Settings / No SCIM Available": {
+    "defaultMessage": "Directory sync requires SSO"
+  },
+  "Tenant Security Settings / No SSO": {
+    "defaultMessage": "No SSO connections configured"
+  },
+  "Tenant Security Settings / Passkey Admin Hint": {
+    "defaultMessage": "No users in your organization have registered passkeys yet"
+  },
+  "Tenant Security Settings / Passkey Hint": {
+    "defaultMessage": "Register a passkey for faster, more secure sign-in"
+  },
+  "Tenant Security Settings / Passkeys Admin Description": {
+    "defaultMessage": "Manage passkeys for all users in your organization"
+  },
+  "Tenant Security Settings / Passkeys Description": {
+    "defaultMessage": "Use biometrics or security keys for passwordless authentication"
+  },
+  "Tenant Security Settings / Passkeys Header": {
+    "defaultMessage": "Passkeys (WebAuthn)"
+  },
+  "Tenant Security Settings / SCIM Compatible IdPs": {
+    "defaultMessage": "Compatible Identity Providers"
+  },
+  "Tenant Security Settings / SCIM Description": {
+    "defaultMessage": "Automatically provision and deprovision users from your identity provider"
+  },
+  "Tenant Security Settings / SCIM Header": {
+    "defaultMessage": "Directory Sync (SCIM)"
+  },
+  "Tenant Security Settings / SCIM Permission": {
+    "defaultMessage": "Only organization owners and admins can configure directory sync"
+  },
+  "Tenant Security Settings / SCIM Ready": {
+    "defaultMessage": "Ready to configure directory sync"
+  },
+  "Tenant Security Settings / SCIM Ready Hint": {
+    "defaultMessage": "Generate a SCIM token to start syncing users automatically from your identity provider."
+  },
+  "Tenant Security Settings / SCIM Setup Hint": {
+    "defaultMessage": "Configure and activate an SSO connection first to enable SCIM provisioning for automatic user management."
+  },
+  "Tenant Security Settings / SCIM Token Button": {
+    "defaultMessage": "Generate SCIM Token"
+  },
+  "Tenant Security Settings / SCIM Token Button Disabled": {
+    "defaultMessage": "Generate SCIM Token"
+  },
+  "Tenant Security Settings / SSO Description": {
+    "defaultMessage": "Configure SAML 2.0 or OIDC identity providers for your organization"
+  },
+  "Tenant Security Settings / SSO Header": {
+    "defaultMessage": "Single Sign-On (SSO)"
+  },
+  "Tenant Security Settings / SSO Permission": {
+    "defaultMessage": "Only organization owners and admins can configure SSO"
+  },
+  "Tenant Security Settings / SSO Setup Hint": {
+    "defaultMessage": "Enable enterprise authentication by connecting your identity provider. Support for SAML 2.0 and OpenID Connect."
+  },
+  "Tenant Security Settings / Supported IdPs": {
+    "defaultMessage": "Supported Identity Providers"
+  },
+  "Tenant form / AddTenant / Card description": {
+    "defaultMessage": "Enter the details for your new organization"
+  },
+  "Tenant form / AddTenant / Card title": {
+    "defaultMessage": "Add Organization"
+  },
+  "Tenant form / AddTenant / Submit button": {
+    "defaultMessage": "Create organization"
+  },
+  "Tenant form / AddTenant / Success message": {
+    "defaultMessage": "Organization added successfully!"
+  },
+  "Tenant form / Cancel button": {
+    "defaultMessage": "Cancel"
+  },
+  "Tenant form / DeleteTenant / Success message": {
+    "defaultMessage": "Organization deleted successfully!"
+  },
+  "Tenant form / Name max length error": {
+    "defaultMessage": "Name is too long"
+  },
+  "Tenant form / Name placeholder": {
+    "defaultMessage": "Name"
+  },
+  "Tenant form / Name required": {
+    "defaultMessage": "Name is required"
+  },
+  "Tenant form / Submit button": {
+    "defaultMessage": "Save changes"
+  },
+  "Tenant form / UpdateTenant / Success message": {
+    "defaultMessage": "Organization updated successfully!"
+  },
+  "Tenant invitation form / Email label": {
+    "defaultMessage": "Email:"
+  },
+  "Tenant invitation form / Email placeholder": {
+    "defaultMessage": "Email"
+  },
+  "Tenant invitation form / Email required": {
+    "defaultMessage": "Email is required"
+  },
+  "Tenant invitation form / Invite new member": {
+    "defaultMessage": "Invite new member"
+  },
+  "Tenant invitation form / Role label": {
+    "defaultMessage": "Role:"
+  },
+  "Tenant invitation form / Role placeholder": {
+    "defaultMessage": "Select role"
+  },
+  "Tenant invitation form / Role required": {
+    "defaultMessage": "Role is required"
+  },
+  "Tenant invitation form / Submit button": {
+    "defaultMessage": "Invite"
+  },
+  "Tenant members list / Actions": {
+    "defaultMessage": "Actions"
+  },
+  "Tenant members list / Invitation accepted": {
+    "defaultMessage": "Invitation accepted"
+  },
+  "Tenant members list / Name & surname": {
+    "defaultMessage": "Name & surname"
+  },
+  "Tenant members list / Role": {
+    "defaultMessage": "Role"
+  },
+  "Tenant roles / Admin": {
+    "defaultMessage": "Admin"
+  },
+  "Tenant roles / Member": {
+    "defaultMessage": "Member"
+  },
+  "Tenant roles / Owner": {
+    "defaultMessage": "Owner"
+  },
+  "Tenant settings / General": {
+    "defaultMessage": "General"
+  },
+  "Tenant settings / Header": {
+    "defaultMessage": "Organization settings"
+  },
+  "Tenant settings / Members": {
+    "defaultMessage": "Members"
+  },
+  "Tenant settings / Security": {
+    "defaultMessage": "Security"
+  },
+  "Tenant settings / Subheading": {
+    "defaultMessage": "Manage your organization"
+  },
+  "Tenant settings / Subscription": {
+    "defaultMessage": "Subscription"
+  },
+  "Tenant settings / page title": {
+    "defaultMessage": "Organization Settings"
+  },
+  "Tenant subscription plan / Header": {
+    "defaultMessage": "Subscription plan"
+  },
+  "Tenant subscription plan / Subheading": {
+    "defaultMessage": "An example of a subscription management page powered by Stripe. You can select a subscription plan, add a payment method, and view payment history."
+  },
+  "Tenant subscription plan / page title": {
+    "defaultMessage": "Subscription plan"
+  },
+  "TenantSwitch / Create new organization": {
+    "defaultMessage": "Create new organization"
+  },
+  "TenantSwitch / Invitations": {
+    "defaultMessage": "Invitations"
+  },
+  "TenantSwitch / Invitations Badge": {
+    "defaultMessage": "{invitationsCount, plural, =1 {# invitation} other {# invitations}}"
+  },
+  "TenantSwitch / Organization settings": {
+    "defaultMessage": "Organization settings"
+  },
+  "TenantSwitch / Organizations": {
+    "defaultMessage": "Organizations"
+  },
+  "TenantSwitch / Personal account": {
+    "defaultMessage": "Personal account"
+  },
+  "Terms And Conditions / Description": {
+    "defaultMessage": "Legal terms for using our service"
+  },
+  "Terms And Conditions / Docs link": {
+    "defaultMessage": "Contentful Documentation"
+  },
+  "Terms And Conditions / Empty description": {
+    "defaultMessage": "The terms and conditions content hasn't been added yet. Please add content to the 'termsAndConditions' field in your Contentful AppConfig entry."
+  },
+  "Terms And Conditions / Empty title": {
+    "defaultMessage": "No Content Available"
+  },
+  "Terms And Conditions / Error description": {
+    "defaultMessage": "There was an error loading this content from Contentful."
+  },
+  "Terms And Conditions / Error title": {
+    "defaultMessage": "Unable to load terms and conditions"
+  },
+  "Terms And Conditions / Not configured description": {
+    "defaultMessage": "This page displays content managed via Contentful CMS. To enable it, you need to configure the Contentful integration."
+  },
+  "Terms And Conditions / Not configured title": {
+    "defaultMessage": "Contentful Integration Not Configured"
+  },
+  "Terms And Conditions / Open Contentful": {
+    "defaultMessage": "Open Contentful"
+  },
+  "Terms And Conditions / Page title": {
+    "defaultMessage": "Terms and Conditions"
+  },
+  "Terms And Conditions / Quick setup title": {
+    "defaultMessage": "Quick Setup"
+  },
+  "Terms And Conditions / Retry button": {
+    "defaultMessage": "Try again"
+  },
+  "Terms And Conditions / Setup step 1": {
+    "defaultMessage": "Create a Contentful account and space at {link}"
+  },
+  "Terms And Conditions / Setup step 2": {
+    "defaultMessage": "Add these environment variables to {file}:"
+  },
+  "Terms And Conditions / Setup step 3": {
+    "defaultMessage": "Create an AppConfig content type with a 'termsAndConditions' field (Long text, Markdown)"
+  },
+  "Terms And Conditions / Setup step 4": {
+    "defaultMessage": "Restart the development server"
+  },
+  "Terms And Conditions / Title": {
+    "defaultMessage": "Terms and Conditions"
+  },
+  "Test / Key": {
+    "defaultMessage": "Hello"
+  },
+  "Time / Days ago": {
+    "defaultMessage": "{days} days ago"
+  },
+  "Time / Hours ago": {
+    "defaultMessage": "{hours} hours ago"
+  },
+  "Time / Just now": {
+    "defaultMessage": "Just now"
+  },
+  "Time / Minutes ago": {
+    "defaultMessage": "{mins} min ago"
+  },
+  "Toast message / Dismiss": {
+    "defaultMessage": "Dismiss notification"
+  },
+  "Unknown / Key": {
+    "defaultMessage": "Fallback Message"
+  }
+}
