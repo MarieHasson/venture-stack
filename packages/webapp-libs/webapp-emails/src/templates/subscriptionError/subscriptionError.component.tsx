@@ -30,7 +30,7 @@ export const Template = () => {
         />
       }
       footer={{
-        companyName: 'SaaS Boilerplate',
+        companyName: 'VentureStack',
       }}
     >
       <Button linkTo={url}>

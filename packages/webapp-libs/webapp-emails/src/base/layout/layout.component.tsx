@@ -43,7 +43,7 @@ export const Layout = ({
   text,
   preheader,
   tagline,
-  logoSrc = 'logo.png',
+  logoSrc,
   logoWidth = 180,
   footer,
   hideFooter = false,
@@ -60,19 +60,21 @@ export const Layout = ({
             {/* Header with Logo */}
             <tr>
               <HeaderSection>
-                <LogoContainer>
-                  <Image
-                    src={logoSrc}
-                    alt="Logo"
-                    style={{
-                      display: 'block',
-                      margin: '0 auto',
-                      width: logoWidth,
-                      maxWidth: '100%',
-                      height: 'auto',
-                    }}
-                  />
-                </LogoContainer>
+                {logoSrc && (
+                  <LogoContainer>
+                    <Image
+                      src={logoSrc}
+                      alt="Logo"
+                      style={{
+                        display: 'block',
+                        margin: '0 auto',
+                        width: logoWidth,
+                        maxWidth: '100%',
+                        height: 'auto',
+                      }}
+                    />
+                  </LogoContainer>
+                )}
                 {tagline && <Tagline>{tagline}</Tagline>}
               </HeaderSection>
             </tr>

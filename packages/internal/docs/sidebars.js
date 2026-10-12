@@ -368,7 +368,7 @@ module.exports = {
         {
           type: 'doc',
           id: 'introduction/the-problem',
-          label: 'Why SaaS Boilerplate?',
+          label: 'Why VentureStack?',
         },
         'introduction/architecture',
         'introduction/stack-description',

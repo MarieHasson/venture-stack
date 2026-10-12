@@ -18,7 +18,7 @@ import { useLanguageFromParams } from './useLanguageFromParams';
 const PageTitle = () => {
   const intl = useIntl();
   const pageTitle = intl.formatMessage({
-    defaultMessage: 'Apptension Boilerplate',
+    defaultMessage: 'VentureStack',
     id: 'App / Page title',
   });
 

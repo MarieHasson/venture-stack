@@ -20,14 +20,14 @@ if (process.env.GTM_CONTAINER_ID) {
 }
 
 module.exports = {
-  title: 'SaaS Boilerplate by Apptension',
+  title: 'VentureStack',
   tagline: 'Build production-ready SaaS applications faster with our comprehensive starter kit',
-  url: 'https://docs.demo.saas.apptoku.com',
+  url: 'https://docs.example.com',
   baseUrl: '/',
   onBrokenLinks: 'warn', // Changed from 'throw' - auto-generated TypeDoc docs have internal links that may not resolve
-  favicon: 'img/favicon.png',
-  organizationName: 'Apptension',
-  projectName: 'saas-boilerplate',
+  favicon: 'img/logo.svg',
+  organizationName: 'MarieHasson',
+  projectName: 'venture-stack',
 
   markdown: {
     format: 'detect',
@@ -59,14 +59,14 @@ module.exports = {
     metadata: [
       { name: 'twitter:card', content: 'summary_large_image' },
       { name: 'og:type', content: 'website' },
-      { name: 'og:site_name', content: 'SaaS Boilerplate Documentation' },
+      { name: 'og:site_name', content: 'VentureStack Documentation' },
     ],
 
     // Announcement bar for important updates
     announcementBar: {
       id: 'announcement-v4',
       content:
-        '⭐ If you find SaaS Boilerplate useful, give us a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/apptension/saas-boilerplate">GitHub</a>!',
+        '⭐ If you find VentureStack useful, give us a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/MarieHasson/venture-stack">GitHub</a>!',
       backgroundColor: 'var(--ifm-color-primary)',
       textColor: '#ffffff',
       isCloseable: true,
@@ -82,10 +82,10 @@ module.exports = {
 
     // Navbar
     navbar: {
-      title: 'SaaS Boilerplate',
+      title: 'VentureStack',
       hideOnScroll: false,
       logo: {
-        alt: 'SaaS Boilerplate by Apptension',
+        alt: 'VentureStack',
         src: 'img/logo.svg',
         srcDark: 'img/logoDark.svg',
         width: 32,
@@ -149,11 +149,11 @@ module.exports = {
         },
         {
           label: 'Website',
-          href: 'https://apptension.com/saas-boilerplate?utm_source=docs&utm_medium=referral&utm_campaign=SaaS%20Boilerplate&utm_term=SaaS%20Boilerplate',
+          href: 'https://github.com/MarieHasson/venture-stack',
           position: 'right',
         },
         {
-          href: 'https://github.com/apptension/saas-boilerplate',
+          href: 'https://github.com/MarieHasson/venture-stack',
           position: 'right',
           className: 'header-github-link',
           'aria-label': 'GitHub repository',
@@ -229,16 +229,16 @@ module.exports = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/apptension/saas-boilerplate',
+              href: 'https://github.com/MarieHasson/venture-stack',
             },
             {
-              label: 'Apptension',
-              href: 'https://apptension.com?utm_source=docs&utm_medium=referral&utm_campaign=SaaS%20Boilerplate&utm_term=SaaS%20Boilerplate',
+              label: 'Maintainer',
+              href: 'https://github.com/MarieHasson',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} SaaS Boilerplate by <a href="https://apptension.com?utm_source=docs&utm_medium=referral&utm_campaign=SaaS%20Boilerplate&utm_term=SaaS%20Boilerplate" target="_blank">Apptension</a>. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Marie Hasson. Built with Docusaurus.`,
     },
 
     // Color mode
@@ -265,7 +265,7 @@ module.exports = {
   },
 
   customFields: {
-    projectName: 'SaaS Boilerplate',
+    projectName: 'VentureStack',
     displayLocalUseInfo: process.env.SB_DISPLAY_LOCAL_USE_INFO || false,
     description:
       'A comprehensive production-ready SaaS starter kit with React, TypeScript, Django, GraphQL, and AWS infrastructure.',

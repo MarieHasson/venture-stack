@@ -145,7 +145,7 @@ export default class RenderSetup extends BaseCommand<typeof RenderSetup> {
 
     const namespace = await input({
       message: 'Image namespace/prefix (e.g., mycompany/saas):',
-      default: `${username}/saas-boilerplate`,
+      default: `${username}/venture-stack`,
     });
 
     this.log(color.yellow('\n⚠️  Important: Docker credentials'));

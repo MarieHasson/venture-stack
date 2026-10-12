@@ -1,4 +1,4 @@
-# Production Dockerfile for the SaaS Boilerplate Web Application
+# Production Dockerfile for the VentureStack Web Application
 # This creates a lightweight nginx-based container for serving the built React app
 #
 # Build args:

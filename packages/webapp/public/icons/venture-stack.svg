@@ -1,0 +1,10 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="VentureStack">
+  <defs>
+    <linearGradient id="venture-stack-icon" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4f46e5" />
+      <stop offset="1" stop-color="#06b6d4" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#venture-stack-icon)" />
+  <path d="M14 17h10l8 27 8-27h10L37 50H27L14 17Z" fill="#fff" />
+</svg>

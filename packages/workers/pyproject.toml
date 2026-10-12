@@ -72,7 +72,8 @@ packages = ["common", "content", "dao", "demo", "scheduler", "settings", "userau
 [project]
 name = "sb_workers"
 version = "1.0.0"
-description = ""
+description = "VentureStack background workers"
+authors = [{ name = "Marie Hasson", email = "mariehasson15@gmail.com" }]
 
 dependencies = [
     "boto3~=1.26",

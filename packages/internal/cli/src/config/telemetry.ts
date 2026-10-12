@@ -12,7 +12,8 @@ import {
   SB_TELEMETRY_URL,
 } from './env';
 
-export const isEnabled = !SB_TELEMETRY_DISABLED;
+export const isEnabled =
+  !SB_TELEMETRY_DISABLED && Boolean(SB_TELEMETRY_URL && SB_TELEMETRY_KEY);
 
 export const traceExporter = new OTLPTraceExporter({
   url: SB_TELEMETRY_URL,

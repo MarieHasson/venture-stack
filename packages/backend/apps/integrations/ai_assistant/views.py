@@ -346,7 +346,7 @@ class MCPClient:
                     "tools": {},
                 },
                 "clientInfo": {
-                    "name": "saas-boilerplate-cfo",
+                    "name": "venture-stack-cfo",
                     "version": "1.0.0",
                 },
             },

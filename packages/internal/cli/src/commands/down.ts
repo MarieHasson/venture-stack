@@ -78,7 +78,7 @@ export default class Down extends BaseCommand<typeof Down> {
     const lines = result.output.split('\n');
 
     for (const line of lines) {
-      // Match lines like "Container saas-boilerplate-backend-1  Removed"
+      // Match lines like "Container venture-stack-backend-1  Removed"
       const match = line.match(/Container\s+(\S+)\s+(?:Stopped|Removed)/i);
       if (match) {
         const containerFullName = match[1].toLowerCase();

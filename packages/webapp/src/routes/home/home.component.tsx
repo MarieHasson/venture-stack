@@ -472,7 +472,7 @@ export const Home = () => {
               <CardContent>
                 <div className="grid gap-2 sm:grid-cols-2">
                   <a
-                    href="https://github.com/apptension/saas-boilerplate"
+                    href="https://github.com/MarieHasson/venture-stack"
                     target="_blank"
                     rel="noreferrer"
                     className="flex items-center gap-2 rounded-md border px-3 py-2.5 text-sm font-medium transition-colors hover:bg-accent hover:no-underline [&]:no-underline"
@@ -482,7 +482,7 @@ export const Home = () => {
                     <ArrowUpRight className="h-3 w-3 shrink-0 text-muted-foreground" />
                   </a>
                   <a
-                    href="https://docs.demo.saas.apptoku.com/"
+                    href="https://docs.example.com/"
                     target="_blank"
                     rel="noreferrer"
                     className="flex items-center gap-2 rounded-md border px-3 py-2.5 text-sm font-medium transition-colors hover:bg-accent hover:no-underline [&]:no-underline"
@@ -530,7 +530,7 @@ export const Home = () => {
               </div>
               <Paragraph className="text-muted-foreground">
                 {intl.formatMessage({
-                  defaultMessage: 'Follow these steps to start developing with the SaaS Boilerplate.',
+                  defaultMessage: 'Follow these steps to start developing with the VentureStack.',
                   id: 'Home / Getting Started / Subtitle',
                 })}
               </Paragraph>
@@ -700,13 +700,13 @@ export const Home = () => {
                   <p>
                     {intl.formatMessage({
                       defaultMessage:
-                        "Each feature you see here is a module demonstrating the versatility and usability of the SaaS Boilerplate. Please remember, these modules are simply examples. You are encouraged to customize, adjust, and modify each module to best fit your application's needs.",
+                        "Each feature you see here is a module demonstrating the versatility and usability of the VentureStack. Please remember, these modules are simply examples. You are encouraged to customize, adjust, and modify each module to best fit your application's needs.",
                       id: 'Home / Alert / Description',
                     })}
                   </p>
                   <p className="font-medium">
                     {intl.formatMessage({
-                      defaultMessage: 'Remember, the SaaS Boilerplate is your starting point - make it your own!',
+                      defaultMessage: 'Remember, the VentureStack is your starting point - make it your own!',
                       id: 'Home / Alert / Call to Action',
                     })}
                   </p>

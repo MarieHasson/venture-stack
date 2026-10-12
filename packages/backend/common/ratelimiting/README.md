@@ -1,6 +1,6 @@
 # Rate Limiting Module
 
-Centralized rate limiting for the SaaS Boilerplate, providing consistent protection across GraphQL, REST, and WebSocket endpoints.
+Centralized rate limiting for the VentureStack, providing consistent protection across GraphQL, REST, and WebSocket endpoints.
 
 ## Overview
 

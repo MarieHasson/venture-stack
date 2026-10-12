@@ -72,7 +72,7 @@ OPENAI_MODEL=gpt-4
 
 For complete documentation, see:
 
-- **[Feature Overview](https://apptension.github.io/saas-boilerplate/introduction/features/translations)** - Architecture and concepts
-- **[Manage Translations](https://apptension.github.io/saas-boilerplate/working-with-sb/translations/manage-translations)** - Step-by-step workflow
-- **[Add a Language](https://apptension.github.io/saas-boilerplate/working-with-sb/translations/add-language)** - Add new locales
-- **[AI Translation](https://apptension.github.io/saas-boilerplate/working-with-sb/translations/ai-translate)** - OpenAI-powered translation
+- **[Feature Overview](https://github.com/MarieHasson/venture-stack/tree/master/packages/internal/docs/docs/introduction/features/translations)** - Architecture and concepts
+- **[Manage Translations](https://github.com/MarieHasson/venture-stack/tree/master/packages/internal/docs/docs/working-with-sb/translations/manage-translations)** - Step-by-step workflow
+- **[Add a Language](https://github.com/MarieHasson/venture-stack/tree/master/packages/internal/docs/docs/working-with-sb/translations/add-language)** - Add new locales
+- **[AI Translation](https://github.com/MarieHasson/venture-stack/tree/master/packages/internal/docs/docs/working-with-sb/translations/ai-translate)** - OpenAI-powered translation

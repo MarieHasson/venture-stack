@@ -1,5 +1,5 @@
 name: "\U0001F41E Bug report"
-description: Report an issue with SaaS Boilerplate
+description: Report an issue with VentureStack
 body:
   - type: markdown
     attributes:
@@ -62,13 +62,13 @@ body:
       label: Validations
       description: Before submitting the issue, please make sure you do the following
       options:
-        - label: Follow our [Code of Conduct](https://github.com/apptension/saas-boilerplate/blob/master/CODE_OF_CONDUCT.md).
+        - label: Follow our [Code of Conduct](https://github.com/MarieHasson/venture-stack/blob/master/CODE_OF_CONDUCT.md).
           required: true
-        - label: Read the [Contributing Guidelines](https://github.com/apptension/saas-boilerplate/blob/master/CONTRIBUTING.md).
+        - label: Read the [Contributing Guidelines](https://github.com/MarieHasson/venture-stack/blob/master/CONTRIBUTING.md).
           required: true
-        - label: Read the [docs](https://docs.demo.saas.apptoku.com/).
+        - label: Read the [docs](https://docs.example.com/).
           required: true
-        - label: Check that there isn't [already an issue](https://github.com/apptension/saas-boilerplate/issues) that reports the same bug to avoid creating a duplicate.
+        - label: Check that there isn't [already an issue](https://github.com/MarieHasson/venture-stack/issues) that reports the same bug to avoid creating a duplicate.
           required: true
-        - label: Check that this is a concrete bug. For Q&A open a [GitHub Discussion](https://github.com/apptension/saas-boilerplate/discussions) or join our [Discord Chat Server](https://discord.apptension.com).
+        - label: Check that this is a concrete bug. For Q&A open a [GitHub Discussion](https://github.com/MarieHasson/venture-stack/discussions) or join our [Discord Chat Server](https://github.com/MarieHasson/venture-stack/discussions).
           required: true

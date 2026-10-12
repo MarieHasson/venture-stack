@@ -1,5 +1,5 @@
 """
-Rate Limiting Module for SaaS Boilerplate.
+Rate Limiting Module for VentureStack.
 
 This module provides a unified rate limiting system for both GraphQL and REST endpoints,
 following the architecture patterns established in the boilerplate.

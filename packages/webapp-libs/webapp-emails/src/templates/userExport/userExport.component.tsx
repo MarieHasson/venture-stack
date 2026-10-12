@@ -29,7 +29,7 @@ export const Template = ({ data }: UserExportProps) => {
         />
       }
       footer={{
-        companyName: 'SaaS Boilerplate',
+        companyName: 'VentureStack',
       }}
     >
       <EmailText variant="secondary" align="center">

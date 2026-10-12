@@ -1,5 +1,5 @@
 """
-Security Tests for the SaaS Boilerplate
+Security Tests for the VentureStack
 
 This test suite covers the security fixes implemented to address identified vulnerabilities:
 1. Tenant isolation in mutations (DeleteTenantDependentModelMutation, etc.)

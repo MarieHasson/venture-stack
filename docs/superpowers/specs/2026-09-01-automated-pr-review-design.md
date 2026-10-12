@@ -1,6 +1,6 @@
 # Automated first-pass code review on pull requests
 
-Issue: [apptension/saas-boilerplate#707](https://github.com/apptension/saas-boilerplate/issues/707)
+Issue: [venturestack/venture-stack#707](https://github.com/MarieHasson/venture-stack/issues/707)
 Status: approved in planning discussion, 2026-09-01. Scope narrowed from the
 issue's original AC1 — see [Deviation from the filed issue](#deviation-from-the-filed-issue).
 
@@ -28,7 +28,7 @@ unreviewed code from a first-time contributor — a residual risk (cost,
 prompt-injection surface) distinct from the credential/write-scope risk
 `pull_request_target` already closes. This spec narrows the first cut to
 same-repo PRs and tracks fork PRs as a follow-up, proposed and reasoned in
-[issue comment 2026-09-01](https://github.com/apptension/saas-boilerplate/issues/707#issuecomment-5494485224).
+[issue comment 2026-09-01](https://github.com/MarieHasson/venture-stack/issues/707#issuecomment-5494485224).
 A fork PR still gets the `Automated Code Review` check (from variable
 validation), just no review comment.
 

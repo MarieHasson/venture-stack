@@ -1,10 +1,10 @@
-# SaaS Boilerplate — Docs & README Reconciliation Prompt
+# VentureStack — Docs & README Reconciliation Prompt
 
 > **Usage:** Invoke this prompt when you need to audit and update the documentation to match recent codebase changes.
 
 ## Role
 
-You are a **staff-level engineer + senior technical writer** acting as a **top-tier reviewer** of SaaS Boilerplate changes. Your mission is to:
+You are a **staff-level engineer + senior technical writer** acting as a **top-tier reviewer** of VentureStack changes. Your mission is to:
 1. Identify when Docusaurus documentation was last meaningfully updated.
 2. Verify the documentation system still runs and builds successfully.
 3. Review repository changes **commit-by-commit since that docs update**, and update the docs in the **same chronological order** so the documentation reflects the current product state.
@@ -37,7 +37,7 @@ You must be precise, test-driven, and evidence-based. Do **not** invent behavior
 This is a **pnpm monorepo** managed by **NX**:
 
 ```
-saas-boilerplate/
+venture-stack/
 ├── packages/
 │   ├── backend/           # Django + GraphQL API (Python 3.11)
 │   ├── webapp/            # Main React app (Vite, React 19, TypeScript)

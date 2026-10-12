@@ -1,7 +1,7 @@
 {
   "name": "workers",
   "version": "5.0.0",
-  "description": "",
+  "description": "VentureStack background workers",
   "main": "index.js",
   "scripts": {
     "stop-task-scheduling-executions": "/bin/bash ./scripts/stop-task-scheduling-executions.sh",
@@ -10,7 +10,7 @@
     "serverless": "serverless",
     "diff": "echo 'no-diff-available'"
   },
-  "author": "",
+  "author": "Marie Hasson <mariehasson15@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.2",

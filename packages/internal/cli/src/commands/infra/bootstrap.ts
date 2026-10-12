@@ -5,7 +5,7 @@ import { BaseCommand } from '../../baseCommand';
 export default class InfraBootstrap extends BaseCommand<typeof InfraBootstrap> {
   static description =
     'Bootstrap infrastructure in AWS account by creating resources necessary to start working with SaaS ' +
-    'Boilerplate';
+    'VentureStack';
 
   static examples = [`<%= config.bin %> <%= command.id %>`];
 

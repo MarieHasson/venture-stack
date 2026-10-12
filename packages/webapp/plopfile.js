@@ -156,7 +156,7 @@ module.exports = function (plop) {
 
   console.log(`
 ${BOLD}${CYAN}╔═══════════════════════════════════════════════════════════════╗
-║             🚀 SaaS Boilerplate Code Generator                ║
+║             🚀 VentureStack Code Generator                ║
 ╚═══════════════════════════════════════════════════════════════╝${RESET}
 
 ${BOLD}${GREEN}Frontend Generators:${RESET}

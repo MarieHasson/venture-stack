@@ -40,7 +40,7 @@ export const Template = ({ data }: UserExportAdminProps) => {
         />
       }
       footer={{
-        companyName: 'SaaS Boilerplate',
+        companyName: 'VentureStack',
       }}
     >
       {/* Desktop table view */}

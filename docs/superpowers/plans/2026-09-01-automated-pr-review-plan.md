@@ -542,12 +542,12 @@ No — a new workflow file, additive.
 ### Other information:
 
 **Design decision.** Design track — brainstorming then a written spec, per
-`apptension-sdlc:dev-flow`'s design gate (this issue requires a new CI
+`venturestack-sdlc:dev-flow`'s design gate (this issue requires a new CI
 workflow, which fails the direct-track criteria outright). Full design:
 [docs/superpowers/specs/2026-09-01-automated-pr-review-design.md](../superpowers/specs/2026-09-01-automated-pr-review-design.md).
 Scope narrowed from the issue's original AC1 during planning — see the
 spec's [Deviation from the filed issue](../superpowers/specs/2026-09-01-automated-pr-review-design.md#deviation-from-the-filed-issue)
-and [issue comment](https://github.com/apptension/saas-boilerplate/issues/707#issuecomment-5494485224).
+and [issue comment](https://github.com/MarieHasson/venture-stack/issues/707#issuecomment-5494485224).
 
 **Verification.**
 - `actionlint .github/workflows/automated-code-review.yml` → `<paste Task 7 Step 2's actual output here>`

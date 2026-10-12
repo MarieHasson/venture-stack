@@ -77,8 +77,8 @@ dev = [
 [project]
 name = "sb-backend"
 version = "1.0.0"
-description = "SaaS Boilerplate Backend"
-authors = []
+description = "VentureStack Backend"
+authors = [{ name = "Marie Hasson", email = "mariehasson15@gmail.com" }]
 dependencies = [
     "boto3~=1.23",
     "django~=5.2",
@@ -112,7 +112,7 @@ dependencies = [
     "uvicorn[standard]==0.27.1",
     "channels[daphne]~=4.1",
     "channels-redis~=4.2",
-    "django-channels-graphql-ws @ https://github.com/apptension/DjangoChannelsGraphqlWs/archive/refs/tags/v1.0.0rc7.tar.gz",
+    "django-channels-graphql-ws @ https://github.com/datadvance/DjangoChannelsGraphqlWs/archive/refs/tags/v1.0.0rc7.tar.gz",
     "gunicorn==22.0.0",
     "celery~=5.4",
     "django-celery-results~=2.6",

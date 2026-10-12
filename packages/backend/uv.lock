@@ -1003,8 +1003,8 @@ wheels = [
 
 [[package]]
 name = "django-channels-graphql-ws"
-version = "1.0.0rc6"
-source = { url = "https://github.com/apptension/DjangoChannelsGraphqlWs/archive/refs/tags/v1.0.0rc7.tar.gz" }
+version = "1.0.0rc7"
+source = { url = "https://github.com/datadvance/DjangoChannelsGraphqlWs/archive/refs/tags/v1.0.0rc7.tar.gz" }
 dependencies = [
     { name = "aiohttp" },
     { name = "asgiref" },
@@ -1015,7 +1015,7 @@ dependencies = [
     { name = "msgpack" },
     { name = "pytest" },
 ]
-sdist = { hash = "sha256:90cbb41958458624eb18accbbebd6489c51f43e63785430d0ea1938b7826f9c6" }
+sdist = { hash = "sha256:6e8d454faea329426b2f6babed606671c6f2e6ee6a7c6648215d124adf294e9f" }
 
 [package.metadata]
 requires-dist = [
@@ -3679,7 +3679,7 @@ requires-dist = [
     { name = "django", specifier = "~=5.2" },
     { name = "django-celery-beat", specifier = "~=2.7" },
     { name = "django-celery-results", specifier = "~=2.6" },
-    { name = "django-channels-graphql-ws", url = "https://github.com/apptension/DjangoChannelsGraphqlWs/archive/refs/tags/v1.0.0rc7.tar.gz" },
+    { name = "django-channels-graphql-ws", url = "https://github.com/datadvance/DjangoChannelsGraphqlWs/archive/refs/tags/v1.0.0rc7.tar.gz" },
     { name = "django-cors-headers", specifier = ">=4.3.1" },
     { name = "django-environ", specifier = "~=0.11" },
     { name = "django-extensions", specifier = "~=3.2" },

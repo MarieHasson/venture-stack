@@ -1,15 +1,15 @@
 {
   "name": "@sb/cli",
   "version": "5.0.0",
-  "description": "SaaS Boilerplate CLI",
-  "author": "Patryk Ziemkowski pziemkowski@apptension.com",
+  "description": "VentureStack CLI",
+  "author": "Marie Hasson <mariehasson15@gmail.com>",
   "bin": {
     "saas": "./bin/run.js"
   },
-  "homepage": "https://github.com/apptension/saas-boilerplate",
+  "homepage": "https://github.com/MarieHasson/venture-stack",
   "license": "MIT",
   "main": "dist/index.js",
-  "repository": "apptension/saas-boilerplate",
+  "repository": "MarieHasson/venture-stack",
   "files": [
     "/bin",
     "/dist",
@@ -17,7 +17,6 @@
     "/oclif.manifest.json"
   ],
   "dependencies": {
-    "@apptension/saas-boilerplate-telemetry": "^1.0.3",
     "@oclif/color": "^1.0.13",
     "@oclif/core": "^3.26.4",
     "@oclif/plugin-autocomplete": "^3.0.16",
@@ -102,7 +101,7 @@
   "engines": {
     "node": ">=18.0.0"
   },
-  "bugs": "https://github.com/apptension/saas-boilerplate/issues",
+  "bugs": "https://github.com/MarieHasson/venture-stack/issues",
   "keywords": [
     "oclif"
   ],

@@ -42,8 +42,8 @@ __pypackages__/
 .DS_Store
 Thumbs.db
 
-# SaaS Boilerplate
-.saas-boilerplate
+# VentureStack
+.venture-stack
 .saas-cli
 .env.prod
 .env.prod.example

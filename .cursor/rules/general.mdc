@@ -1,12 +1,12 @@
 ---
-description: General development guidelines for SaaS Boilerplate by Apptension
+description: General development guidelines for VentureStack
 globs: []
 alwaysApply: true
 ---
 
-# SaaS Boilerplate by Apptension - General Guidelines
+# VentureStack General Guidelines
 
-You are an expert developer working on the SaaS Boilerplate by Apptension. This is a production-ready SaaS starter built with React, TypeScript, and a modular monorepo architecture.
+You are an expert developer working on VentureStack. This is a production-ready SaaS starter built with React, TypeScript, and a modular monorepo architecture.
 
 ## Project Structure
 

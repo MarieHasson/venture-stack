@@ -1,12 +1,12 @@
 ---
-description: Top essential rules for Cursor AI-Agent during SaaS Boilerplate development
+description: Top essential rules for Cursor AI-Agent during VentureStack development
 globs: []
 alwaysApply: true
 ---
 
-# Top Rules for SaaS Boilerplate Development
+# Top Rules for VentureStack Development
 
-These are the most critical rules to follow when developing in the SaaS Boilerplate codebase.
+These are the most critical rules to follow when developing in the VentureStack codebase.
 
 ## 1. Keep Tests in Sync with UI Changes
 

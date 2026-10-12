@@ -138,7 +138,7 @@ export abstract class BaseCommand<T extends typeof Command> extends Command {
     this.log(
       '\x1b[2m' +
         'Telemetry enabled. Opt out: export SB_TELEMETRY_DISABLED=1 | ' +
-        'More: https://docs.demo.saas.apptoku.com/working-with-sb/dev-tools/telemetry' +
+        'More: https://docs.example.com/working-with-sb/dev-tools/telemetry' +
         '\x1b[0m\n',
     );
   }

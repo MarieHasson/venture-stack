@@ -40,8 +40,8 @@ async function getProjectRoot(): Promise<string> {
     if (fs.existsSync(pkgPath)) {
       try {
         const pkg = JSON.parse(fs.readFileSync(pkgPath, 'utf-8'));
-        // Check if this is the SaaS Boilerplate root
-        if (pkg.name === 'saas-boilerplate' || pkg.scripts?.['saas']) {
+        // Check if this is the VentureStack root
+        if (pkg.name === 'venture-stack' || pkg.scripts?.['saas']) {
           return currentDir;
         }
       } catch {
@@ -275,24 +275,24 @@ async function checkProjectDirectory(): Promise<CheckResult> {
     return {
       passed: false,
       message: `Not in project root (missing: ${missingFiles.join(', ')})`,
-      hint: 'cd into your SaaS Boilerplate project directory',
+      hint: 'cd into your VentureStack project directory',
       critical: true,
     };
   }
 
-  // Verify it's a SaaS Boilerplate project
+  // Verify it's a VentureStack project
   try {
     const pkgPath = path.join(cwd, 'package.json');
     const pkg = JSON.parse(fs.readFileSync(pkgPath, 'utf-8'));
     // Check for @sb/cli in devDependencies (the CLI package) or name "sb"
     const hasSbCli = pkg.devDependencies?.['@sb/cli'] || pkg.dependencies?.['@sb/cli'];
-    const isSbProject = pkg.name === 'sb' || pkg.name === 'saas-boilerplate';
+    const isSbProject = pkg.name === 'sb' || pkg.name === 'venture-stack';
 
     if (!hasSbCli && !isSbProject) {
       return {
         passed: false,
-        message: 'This does not appear to be a SaaS Boilerplate project',
-        hint: 'Make sure you cloned the SaaS Boilerplate repository',
+        message: 'This does not appear to be a VentureStack project',
+        hint: 'Make sure you cloned the VentureStack repository',
         critical: true,
       };
     }

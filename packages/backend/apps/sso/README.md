@@ -1,6 +1,6 @@
 # Enterprise SSO & Directory Sync
 
-This Django app provides comprehensive Enterprise SSO capabilities for the SaaS Boilerplate.
+This Django app provides comprehensive Enterprise SSO capabilities for the VentureStack.
 
 ## Features
 

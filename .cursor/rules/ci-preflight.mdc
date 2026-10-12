@@ -1,5 +1,5 @@
 ---
-description: CI-First Preflight Checks and Quality Gates for SaaS Boilerplate
+description: CI-First Preflight Checks and Quality Gates for VentureStack
 globs: []
 alwaysApply: true
 ---

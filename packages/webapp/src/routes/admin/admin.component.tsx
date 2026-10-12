@@ -456,7 +456,7 @@ const { isAllowed } = useTenantRoleAccessCheck(
 
             <div className="flex flex-wrap items-center gap-3">
               <a
-                href="https://docs.demo.saas.apptoku.com/api-reference/backend/users"
+                href="https://docs.example.com/api-reference/backend/users"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 rounded-md border border-border px-4 py-2 text-sm font-medium transition-colors hover:bg-accent hover:no-underline [&]:no-underline"
@@ -466,7 +466,7 @@ const { isAllowed } = useTenantRoleAccessCheck(
                 <ArrowUpRight className="h-3 w-3 text-muted-foreground" />
               </a>
               <a
-                href="https://docs.demo.saas.apptoku.com/api-reference/webapp/multitenancy"
+                href="https://docs.example.com/api-reference/webapp/multitenancy"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 rounded-md border border-border px-4 py-2 text-sm font-medium transition-colors hover:bg-accent hover:no-underline [&]:no-underline"
